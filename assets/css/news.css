@@ -1,0 +1,21 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    text-align: center;
+}
+
+#hero .animated {
+    animation: none;
+}
+
+#hero .jabduu-heading {
+    margin: 50px 0 30px 0;
+    letter-spacing: 5px;
+}
+
+#hero .jabduu-paragraph {
+    margin: 10px 0 10px 0;
+    letter-spacing: 1px;
+    line-height: 30px;
+}

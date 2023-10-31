@@ -1,0 +1,79 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    text-align: center;
+}
+
+#hero .animated {
+    animation: none;
+}
+
+#hero .jabduu-heading {
+    margin: 50px 0 30px 0;
+    letter-spacing: 5px;
+}
+
+#hero .jabduu-paragraph {
+    margin: 20px 0 30px 0;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+/*--------------------------------------------------------------
+# Vismis Section
+--------------------------------------------------------------*/
+#vismis img {
+    margin-top: 25px;
+    width: 90%;
+    height: 200px;
+}
+
+/*--------------------------------------------------------------
+# Values Section
+--------------------------------------------------------------*/
+#values h2.value-title {
+    margin-bottom: 15px;
+}
+
+/*--------------------------------------------------------------
+# Parcliens Section and Awards section
+--------------------------------------------------------------*/
+#parcliens p {
+    letter-spacing: 5px;
+}
+
+.awards img, 
+.parcliens img {
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  filter: grayscale(100);
+}
+
+.awards img:hover, 
+.parcliens img:hover {
+  filter: none;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .awards img, 
+  .parcliens img {
+    max-width: 40%;
+  }
+}
+
+#awards {
+    padding-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Testimonials Section
+--------------------------------------------------------------*/
+#testimonials hr {
+    height: 1px;
+    background-color: #1D1D35;
+    opacity: 1;
+}
