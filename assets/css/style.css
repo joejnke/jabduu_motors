@@ -719,6 +719,11 @@ section {
     border-color: rgba(105, 18, 18, 1);
 }
 
+.services .service-features {
+    color: #1D1D35;
+    font-weight: 500;
+}
+
 .service-item {
     margin-bottom: 30px;
     width: 230px;
@@ -863,32 +868,22 @@ section {
     border-color: rgba(105, 18, 18, 1);
 }
 
-.products-item {
-    margin-bottom: 30px;
-    border-radius: 25px;
-    width: 230px;
+.products .item-label-group span.agriculture-label {
+    background: #fff;
+    color: #1d1d35;
 }
 
-.products-item .card-body {
-    background: #b5e0f4;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+.products .shop-item-name {
+    color: #fff;
 }
 
-.products-item .card-body h5 {
-    color: #1D1D35;
+.products .shop-item-price {
+    color: #fff;
 }
 
-.products-item .card-body h6 {
-    color: rgba(29, 29, 53, 0.7);
-}
-
-.products-item .card-title {
-    color: #3B8A69;
-}
-
-.products-item .card-text {
-    color: #3B8A69;
+.products .product-features{
+    color: #a9eaba;
+    font-weight: 500;
 }
 
 .products .card {
@@ -1017,7 +1012,13 @@ section {
 .clients h2 {
     color: rgba(169, 234, 186, 1);
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size:xx-large;
+}
+
+.clients .industry-served h5 {
+    color: #444444;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .clients .btn-jabduu-primary {
