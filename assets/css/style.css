@@ -272,6 +272,7 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #3B8A69;
+  font-weight: bold;
 }
 
 .navbar .getquote,
@@ -953,23 +954,16 @@ section {
     background: #b5e0f4;
 }
 
-.recent-post h4, .card-title, .card-text  {
+.recent-post .recent-post-item img{
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.recent-post h2.jabduu-subheading {
+    font-size: 25px;
     color: #1D1D35;
-}
-
-.post-item {
-    margin-bottom: 30px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.post-item .card-body {
-    background: #c3e6f6;
-}
-
-.recent-post img {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 .recent-post .btn-jabduu-primary {
@@ -977,11 +971,11 @@ section {
     color: #ffffff;
 }
 
-    .recent-post .btn-jabduu-primary:hover {
-        background: rgba(105, 18, 18, 0);
-        border-color: #691212;
-        color: #691212;
-    }
+.recent-post .btn-jabduu-primary:hover {
+    background: rgba(105, 18, 18, 0);
+    border-color: #691212;
+    color: #691212;
+}
 
 .recent-post .btn-jabduu-secondary {
     background: rgba(105, 18, 18, 0);
