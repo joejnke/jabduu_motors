@@ -405,14 +405,14 @@ h6 {
 
 .navbar-mobile ul {
   display: block;
+  width: 65vw;
+  height: 65vh;
   position: absolute;
   top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
+  right: 25px;
   border-radius: 10px;
-  background-color: #fff;
+  border: 1px solid #a9eaba;
+  background-color: rgba(29, 29, 53, 0.6);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -421,19 +421,19 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #1D1D35;
+  color: #a9eaba;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
-  color: #47b2e4;
+.navbar-mobile li:hover > a {
+    color: #3b8a69;
 }
 
 .navbar-mobile .getquote,
 .navbar-mobile .getquote:focus {
   margin: 15px;
-  color: #1D1D35;
+  color: #3b8a69;
 }
 
 .navbar-mobile .dropdown ul {
@@ -586,14 +586,7 @@ h6 {
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
   #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
     margin-bottom: 30px;
   }
 
