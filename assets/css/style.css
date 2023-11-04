@@ -2277,7 +2277,7 @@ section {
 }
 
 #footer .copyright {
-  float: left;
+  /*float: left;*/
 }
 
 #footer .credits {
