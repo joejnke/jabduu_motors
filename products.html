@@ -30,7 +30,7 @@
 
     <!-- Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/products.css" rel="stylesheet">
+    <link href="assets/css/shop.css" rel="stylesheet">
 
 </head>
 
@@ -47,9 +47,9 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto jabduu-menu active" href="index.html">Home</a></li>
+                    <li><a class="nav-link scrollto jabduu-menu" href="index.html">Home</a></li>
                     <li><a class="nav-link scrollto jabduu-menu" href="services.html">Services</a></li>
-                    <li><a class="nav-link scrollto jabduu-menu" href="#">Parts &amp; Products</a></li>
+                    <li><a class="nav-link scrollto jabduu-menu active" href="#">Parts &amp; Products</a></li>
                     <li><a class="nav-link scrollto jabduu-menu" href="about.html">About</a></li>
                     <li><a class="nav-link scrollto jabduu-menu" href="contact.html">Contact Us</a></li>
                     <li><a class="nav-link scrollto jabduu-menu" href="news.html">News &amp; Blog</a></li>
@@ -61,383 +61,316 @@
         </div>
     </header><!-- End Header -->
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center">
-
+    <section id="shop-hero" class="shop-hero d-flex align-items-center">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-                    <h1 class="jabduu-heading">Jabduu Motors</h1>
-                    <h2 class="jabduu-paragraph">Producing and assembling different agricultural machinery so as to boost manufacturing and modern agricultural productivity of East Africa.</h2>
-                    <div class="d-flex justify-content-center justify-content-lg-start">
-                        <a href="#about" class="btn btn-jabduu-secondary me-2 jabduu-menu">Parts &amp; Products</a>
-                        <a href="#about" class="btn btn-jabduu-primary jabduu-menu">About Us</a>
-                    </div>
+                <!--<div class="row justify-content-center mt-2">
+                    <hr class="align-self-center" />
+                </div>-->
+                <div class="col-lg-6 d-flex flex-column justify-content-center justify-content-lg-start">
+                    <h1 class="jabduu-heading">Jabduu's Store</h1>
+                    <h2 class="jabduu-menu">Parts &amp; Products</h2>
                 </div>
-                <div class="col-lg-6 order-1 order-lg-3 hero-img" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+                <div class="col-lg-6 d-flex justify-content-center align-items-center justify-content-lg-end">
+                    <form action="" method="post">
+                        <div class="row search-box">
+                            <input type="text" name="search">
+                            <i class='bx bx-search bx-sm'></i>
+                        </div>
+                    </form>
+                    <i class='bx bx-cart bx-sm'></i>
                 </div>
             </div>
         </div>
-
     </section><!-- End Hero -->
 
     <main id="main">
-        <!-- ======= Product-Catagory Section ======= -->
-        <section id="product-cat" class="product-cat">
+        <!-- ======= item-catagory Section ======= -->
+        <section id="item-cat" class="item-cat">
             <div class="container">
-                <div class="row">
-                    <a class="filter-active" href="#">Maintenance</a>
-                    <a href="#">User Manual</a>
-                    <a href="#">Training</a>
-                    <a href="#">Machine Operators</a>
+                <div class="row-cols-4 d-flex text-center justify-content-center">
+                    <a href="#"><h6>Water Pump</h6></a>
+                    <a href="#"><h6>Water Sprinkler</h6></a>
+                    <a href="#"><h6>Spare Parts</h6></a>
+                </div>
+                <div class="row justify-content-center mt-2">
+                    <hr class="align-self-center" />
                 </div>
             </div>
-        </section><!-- ======= End Service-Catagory Section ======= -->
+        </section><!-- ======= End item-catagory Section ======= -->
         <!-- ======= Shop Section ======= -->
         <section id="shop" class="shop">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-1">
-                        <div class="service-filter-group">
-                            <h5>filter group</h5>
-                            <div class="filter-lables">
-                                <a class="filter-active">filter</a>
-                                <a class="filter">filter</a>
-                                <a class="filter">filter</a>
+                    <div class="col-md-3">
+                        <div class="item-filter-group">
+                            <h6>Application</h6>
+                            <div class="filter-labels">
+                                <a href="#"><span class="label shop-filter-label">Construction</span></a>
+                                <a href="#"><span class="label shop-filter-label">Agriculture</span></a>
+                                <a href="#"><span class="label shop-filter-label">Municipal</span></a>
                             </div>
                         </div>
-                        <div class="service-filter-group">
-                            <h5>filter group</h5>
-                            <div class="filter-lables">
-                                <a class="filter-active">filter</a>
-                                <a class="filter">filter</a>
-                                <a class="filter">filter</a>
+                        <div class="item-filter-group">
+                            <h6>Brand</h6>
+                            <div class="filter-labels">
+                                <a href="#"><span class="label shop-filter-label">John Deere</span></a>
+                                <a href="#"><span class="label shop-filter-label">Municipal</span></a>
                             </div>
                         </div>
-                        <div class="service-filter-group">
-                            <h5>filter group</h5>
-                            <div class="filter-lables">
-                                <a class="filter-active">filter</a>
-                                <a class="filter">filter</a>
-                                <a class="filter">filter</a>
+                        <div class="item-filter-group">
+                            <h6>Price</h6>
+                            <div class="filter-labels">
+                                <a href="#"><span class="label shop-filter-label">&lt;&dollar; 21</span></a>
+                                <a href="#"><span class="label shop-filter-label">&dollar; 21 - &dollar; 200</span></a>
+                                <a href="#"><span class="label shop-filter-label">&gt;&dollar; 200</span></a>
                             </div>
                         </div>
-                        <div class="recent-post">
-                            <div class="card post-item">
-                                <img src="assets/img/jabduu-news.png" class="card-img-top" alt="post item">
-                                <div class="card-body">
-                                    <h5 class="card-title jabduu-subheading">News Title</h5>
-                                    <p class="card-text jabduu-paragraph">News brief content leading user to read more on the topic. News description and main concept of it</p>
-                                    <a href="#" class="btn btn-jabduu-secondary jabduu-menu">Read More</a>
-                                </div>
+                        <div class="item-filter-group">
+                            <h6>Category</h6>
+                            <div class="filter-labels">
+                                <a href="#"><span class="label shop-filter-label">Pump</span></a>
+                                <a href="#"><span class="label shop-filter-label">Sprinkler</span></a>
+                                <a href="#"><span class="label shop-filter-label">Accessory</span></a>
+                                <a href="#"><span class="label shop-filter-label">Spare Part</span></a>
+                            </div>
+                        </div>
+                        <div class="shop-recent-post">
+                            <div>
+                                <h2 class="pt-5 mt-5 jabduu-subheading">Recently Posted</h2>
+                            </div>
+                            <div class="post-item">
+                                <img src="assets/img/jabduu-news.png" alt="post item">
+                                <a href="#">
+                                    <p class="jabduu-paragraph pt-1 pb-0 mb-1" style="color: #1d1d35; font-weight: bold;">Clickable title of the news with brief - heading</p>
+                                    <h6 class="jabduu-paragraph" style="color: gray;">October 3, 2023</h6>
+                                </a>
                             </div><!-- post item -->
-                            <div class="card post-item">
-                                <img src="assets/img/jabduu-news.png" class="card-img-top" alt="post item">
-                                <div class="card-body">
-                                    <h5 class="card-title jabduu-subheading">News Title</h5>
-                                    <p class="card-text jabduu-paragraph">News brief content leading user to read more on the topic. News description and main concept of it</p>
-                                    <a href="#" class="btn btn-jabduu-secondary jabduu-menu">Read More</a>
-                                </div>
+                            <div class="post-item">
+                                <img src="assets/img/jabduu-news.png" alt="post item">
+                                <a href="#">
+                                    <p class="jabduu-paragraph pt-1 pb-0 mb-1" style="color: #1d1d35; font-weight: bold;">Clickable title of the news with brief - heading</p>
+                                    <h6 class="jabduu-paragraph" style="color: gray;">October 3, 2023</h6>
+                                </a>
                             </div><!-- post item -->
                         </div>
-                        <div class="newsletter">
-                            <div class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-1"><hr /></div>
+                        <div class="shop-newsletter text-center">
+                            <h4 class="jabduu-menu">Subscribe To Our Newsletter</h4>
+                            <form action="" method="post">
+                                <div class="row">
+                                    <input type="email" name="email" placeholder="your email address">
+                                    <i class='bx bxs-envelope bx-sm'></i>
                                 </div>
-                                <div class="row justify-content-center">
-                                    <div class="col-1">
-                                        <h4 class="jabduu-subheading">Join Our Newsletter</h4>
-                                        <p class="jabduu-paragraph">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                                        <form action="" method="post">
-                                            <input type="email" name="email"><input type="submit" value="Subscribe">
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-
+                                <input class="btn btn-jabduu-primary" type="submit" value="Subscribe">
+                            </form>
                         </div>
-                    </div>
-                    <div class="col-md-11">
+                    </div><!-- side bar -->
+                    <div class="col-md-9">
                         <div class="breadcrumb">
-
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="#">Parts &amp; Products</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Water Pumps</li>
+                                </ol>
+                            </nav>
                         </div>
-                        <div class="tractor">
-                            <h1>Tractor</h1>
-                            <div class="col-lg-3 offset-lg-1 me-5">
-                                <div class="card products-item">
-                                    <img src="assets/img/combiner.jpg" class="card-img-top">
-                                    <div class="card-body pt-1 px-0">
-                                        <div class=" px-3 pt-3">
-                                            <h5>Combiner</h5>
-                                            <h6>&dollar;22,495&ast;</h6>
-                                        </div>
-                                        <div class="mx-3 mt-1">
-                                            <button type="button" class="btn btn-jabduu-secondary btn-block">
-                                                <small>Order Now</small>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div> <!-- product item -->
-                                <div class="card products-item">
-                                    <img src="assets/img/combiner.jpg" class="card-img-top">
-                                    <div class="card-body pt-1 px-0">
-                                        <div class=" px-3 pt-3">
-                                            <h5>Combiner</h5>
-                                            <h6>&dollar;22,495&ast;</h6>
-                                        </div>
-                                        <div class="mx-3 mt-1">
-                                            <button type="button" class="btn btn-jabduu-secondary btn-block">
-                                                <small>Order Now</small>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div> <!-- product item -->
-                            </div><!-- product items group -->
-                            <div class="col-lg-3 offset-lg-1 me-5">
-                                <div class="card products-item">
-                                    <img src="assets/img/combiner.jpg" class="card-img-top">
-                                    <div class="card-body pt-1 px-0">
-                                        <div class=" px-3 pt-3">
-                                            <h5>Combiner</h5>
-                                            <h6>&dollar;22,495&ast;</h6>
-                                        </div>
-                                        <div class="mx-3 mt-1">
-                                            <button type="button" class="btn btn-jabduu-secondary btn-block">
-                                                <small>Order Now</small>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div> <!-- product item -->
-                                <div class="card products-item">
-                                    <img src="assets/img/combiner.jpg" class="card-img-top">
-                                    <div class="card-body pt-1 px-0">
-                                        <div class=" px-3 pt-3">
-                                            <h5>Combiner</h5>
-                                            <h6>&dollar;22,495&ast;</h6>
-                                        </div>
-                                        <div class="mx-3 mt-1">
-                                            <button type="button" class="btn btn-jabduu-secondary btn-block">
-                                                <small>Order Now</small>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div> <!-- product item -->
-                            </div><!-- product items group -->
-                            <div class="col-lg-3">
-                                <div class="card products-item">
-                                    <img src="assets/img/combiner.jpg" class="card-img-top">
-                                    <div class="card-body pt-1 px-0">
-                                        <div class=" px-3 pt-3">
-                                            <h5>Combiner</h5>
-                                            <h6>&dollar;22,495&ast;</h6>
-                                        </div>
-                                        <div class="mx-3 mt-1">
-                                            <button type="button" class="btn btn-jabduu-secondary btn-block">
-                                                <small>Order Now</small>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div> <!-- product item -->
-                                <div class="card products-item">
-                                    <img src="assets/img/combiner.jpg" class="card-img-top">
-                                    <div class="card-body pt-1 px-0">
-                                        <div class=" px-3 pt-3">
-                                            <h5>Combiner</h5>
-                                            <h6>&dollar;22,495&ast;</h6>
-                                        </div>
-                                        <div class="mx-3 mt-1">
-                                            <button type="button" class="btn btn-jabduu-secondary btn-block">
-                                                <small>Order Now</small>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div> <!-- product item -->
-                            </div><!-- product items group -->
-                        </div><!-- tractor catagory -->
-                        <div class="spare-part">
-                            <h1>Spare Parts</h1>
-                            <div class="col-lg-3 offset-lg-1 me-5">
-                                <div class="card products-item">
-                                    <img src="assets/img/combiner.jpg" class="card-img-top">
-                                    <div class="card-body pt-1 px-0">
-                                        <div class=" px-3 pt-3">
-                                            <h5>Combiner</h5>
-                                            <h6>&dollar;22,495&ast;</h6>
-                                        </div>
-                                        <div class="mx-3 mt-1">
-                                            <button type="button" class="btn btn-jabduu-secondary btn-block">
-                                                <small>Order Now</small>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div> <!-- product item -->
-                                <div class="card products-item">
-                                    <img src="assets/img/combiner.jpg" class="card-img-top">
-                                    <div class="card-body pt-1 px-0">
-                                        <div class=" px-3 pt-3">
-                                            <h5>Combiner</h5>
-                                            <h6>&dollar;22,495&ast;</h6>
-                                        </div>
-                                        <div class="mx-3 mt-1">
-                                            <button type="button" class="btn btn-jabduu-secondary btn-block">
-                                                <small>Order Now</small>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div> <!-- product item -->
-                            </div><!-- product items group -->
-                            <div class="col-lg-3 offset-lg-1 me-5">
-                                <div class="card products-item">
-                                    <img src="assets/img/combiner.jpg" class="card-img-top">
-                                    <div class="card-body pt-1 px-0">
-                                        <div class=" px-3 pt-3">
-                                            <h5>Combiner</h5>
-                                            <h6>&dollar;22,495&ast;</h6>
-                                        </div>
-                                        <div class="mx-3 mt-1">
-                                            <button type="button" class="btn btn-jabduu-secondary btn-block">
-                                                <small>Order Now</small>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div> <!-- product item -->
-                                <div class="card products-item">
-                                    <img src="assets/img/combiner.jpg" class="card-img-top">
-                                    <div class="card-body pt-1 px-0">
-                                        <div class=" px-3 pt-3">
-                                            <h5>Combiner</h5>
-                                            <h6>&dollar;22,495&ast;</h6>
-                                        </div>
-                                        <div class="mx-3 mt-1">
-                                            <button type="button" class="btn btn-jabduu-secondary btn-block">
-                                                <small>Order Now</small>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div> <!-- product item -->
-                            </div><!-- product items group -->
-                            <div class="col-lg-3">
-                                <div class="card products-item">
-                                    <img src="assets/img/combiner.jpg" class="card-img-top">
-                                    <div class="card-body pt-1 px-0">
-                                        <div class=" px-3 pt-3">
-                                            <h5>Combiner</h5>
-                                            <h6>&dollar;22,495&ast;</h6>
-                                        </div>
-                                        <div class="mx-3 mt-1">
-                                            <button type="button" class="btn btn-jabduu-secondary btn-block">
-                                                <small>Order Now</small>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div> <!-- product item -->
-                                <div class="card products-item">
-                                    <img src="assets/img/combiner.jpg" class="card-img-top">
-                                    <div class="card-body pt-1 px-0">
-                                        <div class=" px-3 pt-3">
-                                            <h5>Combiner</h5>
-                                            <h6>&dollar;22,495&ast;</h6>
-                                        </div>
-                                        <div class="mx-3 mt-1">
-                                            <button type="button" class="btn btn-jabduu-secondary btn-block">
-                                                <small>Order Now</small>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div> <!-- product item -->
-                            </div><!-- product items group -->
-                        </div><!-- spare parts catagory -->
-                    </div>
+                        <h2 class="jabduu-subheading mb-4">Water Pumps &amp; Sprinklers</h2>
+                        <div class="row d-flex justify-content-around mb-5">
+                            <div class="col-md-3 shop-item">
+                                <img src="assets/img/products/municipal-water-pump.jpg" class="shop-item-img">
+                                <h5 class="shop-item-name">Municipal Pump</h5>
+                                <div class="d-flex item-label-group">
+                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
+                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
+                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
+                                </div>
+                                <h5 class="shop-item-price">&dollar; 21</h5>
+                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
+                            </div><!-- shop item -->
+                            <div class="col-md-3 shop-item">
+                                <img src="assets/img/products/construction-water-pump.jpg" class="shop-item-img">
+                                <h5 class="shop-item-name">Construction Use Pump</h5>
+                                <div class="d-flex item-label-group">
+                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
+                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
+                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
+                                </div>
+                                <h5 class="shop-item-price">&dollar; 21</h5>
+                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
+                            </div><!-- shop item -->
+                            <div class="col-md-3 shop-item">
+                                <img src="assets/img/products/agri-water-pump.jpg" class="shop-item-img">
+                                <h5 class="shop-item-name">Irrigation Pump</h5>
+                                <div class="d-flex item-label-group">
+                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
+                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
+                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
+                                </div>
+                                <h5 class="shop-item-price">&dollar; 21</h5>
+                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
+                            </div><!-- shop item -->
+                        </div><!-- water pumps and sprinklers catagory -->
+                        <div class="row d-flex justify-content-around mb-5">
+                            <div class="col-md-3 shop-item">
+                                <img src="assets/img/products/home-water-pump.jpg" class="shop-item-img">
+                                <h5 class="shop-item-name">Home Use Pump</h5>
+                                <div class="d-flex item-label-group">
+                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
+                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
+                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
+                                </div>
+                                <h5 class="shop-item-price">&dollar; 21</h5>
+                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
+                            </div><!-- shop item -->
+                            <div class="col-md-3 shop-item">
+                                <img src="assets/img/products/water-pump-installation.jpg" class="shop-item-img">
+                                <h5 class="shop-item-name">Gardening Pump</h5>
+                                <div class="d-flex item-label-group">
+                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
+                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
+                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
+                                </div>
+                                <h5 class="shop-item-price">&dollar; 21</h5>
+                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
+                            </div><!-- shop item -->
+                            <div class="col-md-3 shop-item">
+                                <img src="assets/img/products/impact-sprinkler.jpg" class="shop-item-img">
+                                <h5 class="shop-item-name">Impact Sprinkler</h5>
+                                <div class="d-flex item-label-group">
+                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
+                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
+                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
+                                </div>
+                                <h5 class="shop-item-price">&dollar; 21</h5>
+                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
+                            </div><!-- shop item -->
+                        </div><!-- water pumps and sprinklers catagory -->
+                        <h2 class="jabduu-subheading mb-4">Accessories &amp; Spare Parts</h2>
+                        <div class="row d-flex justify-content-around mb-5">
+                            <div class="col-md-3 shop-item">
+                                <img src="assets/img/products/anti-vibration.jpg" class="shop-item-img">
+                                <h5 class="shop-item-name">Anti Vibration</h5>
+                                <div class="d-flex item-label-group">
+                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
+                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
+                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
+                                </div>
+                                <h5 class="shop-item-price">&dollar; 21</h5>
+                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
+                            </div><!-- shop item -->
+                            <div class="col-md-3 shop-item">
+                                <img src="assets/img/products/hose-and-pipes.jpg" class="shop-item-img">
+                                <h5 class="shop-item-name">Hose & Pipes</h5>
+                                <div class="d-flex item-label-group">
+                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
+                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
+                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
+                                </div>
+                                <h5 class="shop-item-price">&dollar; 21</h5>
+                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
+                            </div><!-- shop item -->
+                            <div class="col-md-3 shop-item">
+                                <img src="assets/img/products/pressure gauge.jpg" class="shop-item-img">
+                                <h5 class="shop-item-name">Pressure Gauge</h5>
+                                <div class="d-flex item-label-group">
+                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
+                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
+                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
+                                </div>
+                                <h5 class="shop-item-price">&dollar; 21</h5>
+                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
+                            </div><!-- shop item -->
+                        </div><!-- accessories and spare parts catagory -->
+                        <div class="row d-flex justify-content-around mb-5">
+                            <div class="col-md-3 shop-item">
+                                <img src="assets/img/products/valve.jpg" class="shop-item-img">
+                                <h5 class="shop-item-name">Valves</h5>
+                                <div class="d-flex item-label-group">
+                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
+                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
+                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
+                                </div>
+                                <h5 class="shop-item-price">&dollar; 21</h5>
+                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
+                            </div><!-- shop item -->
+                            <div class="col-md-3 shop-item">
+                                <img src="assets/img/products/pump-seal-kit.jpg" class="shop-item-img">
+                                <h5 class="shop-item-name">Pump Seals</h5>
+                                <div class="d-flex item-label-group">
+                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
+                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
+                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
+                                </div>
+                                <h5 class="shop-item-price">&dollar; 21</h5>
+                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
+                            </div><!-- shop item -->
+                            <div class="col-md-3 shop-item">
+                                <img src="assets/img/products/pipe-unions.jpg" class="shop-item-img">
+                                <h5 class="shop-item-name">Pipe Unions</h5>
+                                <div class="d-flex item-label-group">
+                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
+                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
+                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
+                                </div>
+                                <h5 class="shop-item-price">&dollar; 21</h5>
+                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
+                            </div><!-- shop item -->
+                        </div><!-- accessories and spare parts catagory -->
+
+                    </div><!-- shop item list -->
                 </div>
             </div>
         </section><!-- ======= End Shop Section ======= -->
-        <!-- ======= Trending-Products Section ======= -->
-        <section id="trending-products" class="trending-products">
-            <div class="container">
+        <!-- ======= Top-Items Section ======= -->
+        <section id="top-items" class="top-items">
+            <div class="container mb-5">
                 <div class="row">
-                    <div class="card products-item">
-                        <img src="assets/img/combiner.jpg" class="card-img-top">
-                        <div class="card-body pt-1 px-0">
-                            <div class=" px-3 pt-3">
-                                <h5>Combiner</h5>
-                                <h6>&dollar;22,495&ast;</h6>
-                            </div>
-                            <div class="mx-3 mt-1">
-                                <button type="button" class="btn btn-jabduu-secondary btn-block">
-                                    <small>Order Now</small>
-                                </button>
-                            </div>
+                    <h2 class="jabduu-subheading mb-4">Trending Products</h2>
+                    <div class="col-md-4 shop-item">
+                        <img src="assets/img/products/agri-water-pump.jpg" class="shop-item-img">
+                        <h5 class="shop-item-name">Irrigation Pump</h5>
+                        <div class="d-flex item-label-group">
+                            <h6><span class="label shop-item-label construction-label">Construction</span></h6>
+                            <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
+                            <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
                         </div>
-                    </div><!-- product item -->
-                    <div class="card products-item">
-                        <img src="assets/img/combiner.jpg" class="card-img-top">
-                        <div class="card-body pt-1 px-0">
-                            <div class=" px-3 pt-3">
-                                <h5>Combiner</h5>
-                                <h6>&dollar;22,495&ast;</h6>
-                            </div>
-                            <div class="mx-3 mt-1">
-                                <button type="button" class="btn btn-jabduu-secondary btn-block">
-                                    <small>Order Now</small>
-                                </button>
-                            </div>
+                        <h5 class="shop-item-price">&dollar; 21</h5>
+                        <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
+                    </div><!-- shop item -->
+                    <div class="col-md-4 shop-item">
+                        <img src="assets/img/products/stainless-hose.jpg" class="shop-item-img">
+                        <h5 class="shop-item-name">Stainless Hose</h5>
+                        <div class="d-flex item-label-group">
+                            <h6><span class="label shop-item-label construction-label">Construction</span></h6>
+                            <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
+                            <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
                         </div>
-                    </div><!-- product item -->
-                    <div class="card products-item">
-                        <img src="assets/img/combiner.jpg" class="card-img-top">
-                        <div class="card-body pt-1 px-0">
-                            <div class=" px-3 pt-3">
-                                <h5>Combiner</h5>
-                                <h6>&dollar;22,495&ast;</h6>
-                            </div>
-                            <div class="mx-3 mt-1">
-                                <button type="button" class="btn btn-jabduu-secondary btn-block">
-                                    <small>Order Now</small>
-                                </button>
-                            </div>
+                        <h5 class="shop-item-price">&dollar; 21</h5>
+                        <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
+                    </div><!-- shop item -->
+                    <div class="col-md-4 shop-item">
+                        <img src="assets/img/products/control-panel.jpg" class="shop-item-img">
+                        <h5 class="shop-item-name">Control Panels</h5>
+                        <div class="d-flex item-label-group">
+                            <h6><span class="label shop-item-label construction-label">Construction</span></h6>
+                            <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
+                            <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
                         </div>
-                    </div><!-- product item -->
-                    <div class="card products-item">
-                        <img src="assets/img/combiner.jpg" class="card-img-top">
-                        <div class="card-body pt-1 px-0">
-                            <div class=" px-3 pt-3">
-                                <h5>Combiner</h5>
-                                <h6>&dollar;22,495&ast;</h6>
-                            </div>
-                            <div class="mx-3 mt-1">
-                                <button type="button" class="btn btn-jabduu-secondary btn-block">
-                                    <small>Order Now</small>
-                                </button>
-                            </div>
-                        </div>
-                    </div><!-- product item -->
+                        <h5 class="shop-item-price">&dollar; 21</h5>
+                        <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
+                    </div><!-- shop item -->
+
                 </div>
+
             </div>
-        </section><!-- ======= End Trending-Products Section ======= -->
+        </section><!-- ======= End Top-Items Section ======= -->
     </main><!-- End #main -->
     <!-- ======= Footer ======= -->
     <footer id="footer">
-        <div class="footer-newsletter">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-6"><hr /></div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h4 class="jabduu-subheading">Join Our Newsletter</h4>
-                        <p class="jabduu-paragraph">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                        <form action="" method="post">
-                            <input type="email" name="email"><input type="submit" value="Subscribe">
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- ======= Footer brands Section ======= -->
-        <section id="footer-brands" class="brands section-bg">
+        <section id="footer-brands" class="footer-brands section-bg">
             <div class="container">
-                <hr />
                 <div class="row" data-aos="zoom-in">
 
                     <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
@@ -465,7 +398,6 @@
                     </div>
 
                 </div>
-                <hr />
             </div>
         </section><!-- End Footer Brands Section -->
 
@@ -474,7 +406,7 @@
                 <div class="row">
 
                     <div class="col-lg-3 col-md-6 footer-contact">
-                        <h3 class="jabduu-subheading">Jabduu<br/>Motors</h3>
+                        <h3 class="jabduu-subheading">Jabduu<br />Motors</h3>
                         <p class="jabduu-paragraph">
                             A108 Adam Street <br>
                             New York, NY 535022<br>

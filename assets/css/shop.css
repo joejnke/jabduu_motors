@@ -26,6 +26,7 @@
 .shop-hero .search-box {
     padding-right: 45px;
     position: relative;
+    margin-top: 50px;
 }
 
 .shop-hero form input[type=text] {
@@ -38,10 +39,12 @@
 
 .shop-hero i {
     color: #1D1D35;
+    margin-top: 56px;
 }
 
 .shop-hero form i {
     position: absolute;
+    margin-top: 0;
     top: 6px;
     right: 40px;
     bottom: 0;
