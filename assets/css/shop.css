@@ -51,18 +51,18 @@
 }
 
 /*--------------------------------------------------------------
-# Service-Category Section
+# Item-Category Section
 --------------------------------------------------------------*/
-#service-cat {
+#item-cat {
     padding-top: 30px;
 }
 
-.service-cat a {
+.item-cat a {
     width: fit-content;
     margin: 0 40px;
 }
 
-.service-cat h6 {
+.item-cat h6 {
     font-family: "Montserrat", "Poppins", "Open Sans", sans-serif;
     font-weight: 600;
     color: #1D1D35;
@@ -70,7 +70,7 @@
     margin-bottom: 0;
 }
 
-.service-cat hr {
+.item-cat hr {
     width: 70vw;
     margin-top: 0;
     border-top: 2px solid #3b8a69;
@@ -157,11 +157,11 @@
     background: #691212;
 }
 
-.service-filter-group {
+.item-filter-group {
     margin-bottom: 10px;
 }
 
-.service-filter-group h6 {
+.item-filter-group h6 {
     margin: 0;
     font-weight: 600;
 }
@@ -249,10 +249,10 @@
 }
 
 /*--------------------------------------------------------------
-# Top-services Section and Awards section
+# Top-items Section and Awards section
 --------------------------------------------------------------*/
 
-#top-services {
+#top-items {
     padding: 0;
 }
 
