@@ -65,8 +65,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center justify-content-lg-start">
-                    <h1 class="jabduu-heading">Jabduu's Store</h1>
-                    <h2 class="jabduu-menu">Parts &amp; Products</h2>
+                    <h1 class="jabduu-heading text-center text-lg-start">Jabduu's Store</h1>
+                    <h2 class="jabduu-menu text-center text-lg-start">Parts &amp; Products</h2>
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center align-items-center justify-content-lg-end">
                     <form action="" method="post">
@@ -87,7 +87,7 @@
             <div class="container">
                 <div class="row-cols-4 d-flex text-center justify-content-center">
                     <a href="#"><h6>Water Pump</h6></a>
-                    <a href="#"><h6>Water Sprinkler</h6></a>
+                    <a class="d-none d-md-block" href="#"><h6>Water Sprinkler</h6></a>
                     <a href="#"><h6>Spare Parts</h6></a>
                 </div>
                 <div class="row justify-content-center mt-2">
@@ -99,7 +99,7 @@
         <section id="shop" class="shop">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 d-none d-md-block">
                         <div class="item-filter-group">
                             <h6>Application</h6>
                             <div class="filter-labels">
@@ -163,7 +163,7 @@
                         </div>
                     </div><!-- side bar -->
                     <div class="col-md-9">
-                        <div class="breadcrumb">
+                        <div class="breadcrumb d-flex justify-content-center justify-content-md-start">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -173,7 +173,7 @@
                             </nav>
                         </div>
                         <h2 class="jabduu-subheading mb-4">Water Pumps &amp; Sprinklers</h2>
-                        <div class="row d-flex justify-content-around mb-5">
+                        <div class="row d-flex ms-5 ms-md-0 justify-content-center justify-content-md-around">
                             <div class="col-md-3 shop-item">
                                 <img src="assets/img/products/municipal-water-pump.jpg" class="shop-item-img">
                                 <h5 class="shop-item-name">Municipal Pump</h5>
@@ -208,7 +208,7 @@
                                 <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
                             </div><!-- shop item -->
                         </div><!-- water pumps and sprinklers catagory -->
-                        <div class="row d-flex justify-content-around mb-5">
+                        <div class="row d-flex ms-5 ms-md-0 justify-content-center justify-content-md-around">
                             <div class="col-md-3 shop-item">
                                 <img src="assets/img/products/home-water-pump.jpg" class="shop-item-img">
                                 <h5 class="shop-item-name">Home Use Pump</h5>
@@ -244,7 +244,7 @@
                             </div><!-- shop item -->
                         </div><!-- water pumps and sprinklers catagory -->
                         <h2 class="jabduu-subheading mb-4">Accessories &amp; Spare Parts</h2>
-                        <div class="row d-flex justify-content-around mb-5">
+                        <div class="row d-flex ms-5 ms-md-0 justify-content-center justify-content-md-around">
                             <div class="col-md-3 shop-item">
                                 <img src="assets/img/products/anti-vibration.jpg" class="shop-item-img">
                                 <h5 class="shop-item-name">Anti Vibration</h5>
@@ -279,7 +279,7 @@
                                 <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
                             </div><!-- shop item -->
                         </div><!-- accessories and spare parts catagory -->
-                        <div class="row d-flex justify-content-around mb-5">
+                        <div class="row d-flex ms-5 ms-md-0 justify-content-center justify-content-md-around">
                             <div class="col-md-3 shop-item">
                                 <img src="assets/img/products/valve.jpg" class="shop-item-img">
                                 <h5 class="shop-item-name">Valves</h5>
@@ -324,7 +324,7 @@
             <div class="container mb-5">
                 <div class="row">
                     <h2 class="jabduu-subheading mb-4">Trending Products</h2>
-                    <div class="col-md-4 shop-item">
+                    <div class="col-md-4 ms-4 ms-md-0 shop-item">
                         <img src="assets/img/products/agri-water-pump.jpg" class="shop-item-img">
                         <h5 class="shop-item-name">Irrigation Pump</h5>
                         <div class="d-flex item-label-group">
@@ -335,7 +335,7 @@
                         <h5 class="shop-item-price">&dollar; 21</h5>
                         <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
                     </div><!-- shop item -->
-                    <div class="col-md-4 shop-item">
+                    <div class="col-md-4 ms-4 ms-md-0 shop-item">
                         <img src="assets/img/products/stainless-hose.jpg" class="shop-item-img">
                         <h5 class="shop-item-name">Stainless Hose</h5>
                         <div class="d-flex item-label-group">
@@ -346,7 +346,7 @@
                         <h5 class="shop-item-price">&dollar; 21</h5>
                         <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
                     </div><!-- shop item -->
-                    <div class="col-md-4 shop-item">
+                    <div class="col-md-4 ms-4 ms-md-0 shop-item">
                         <img src="assets/img/products/control-panel.jpg" class="shop-item-img">
                         <h5 class="shop-item-name">Control Panels</h5>
                         <div class="d-flex item-label-group">
@@ -365,84 +365,100 @@
     </main><!-- End #main -->
     <!-- ======= Footer ======= -->
     <footer id="footer">
-        <!-- ======= Footer brands Section ======= -->
-        <section id="footer-brands" class="footer-brands section-bg">
+
+        <div class="footer-newsletter">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 mt-5">
+                        <h4 class="jabduu-subheading mb-0">Join Our Newsletter</h4>
+                        <hr />
+                        <p class="jabduu-paragraph">Subscribe to our newsletter list to get early notifications of our latest posts.</p>
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ======= Footer Clients Section ======= -->
+        <section id="footer-clients" class="clients section-bg">
             <div class="container">
                 <div class="row" data-aos="zoom-in">
 
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <div class="col-lg-2 col-md-4 col-4 d-flex align-items-center justify-content-center">
                         <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <div class="col-lg-2 col-md-4 col-4 d-flex align-items-center justify-content-center">
                         <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <div class="col-lg-2 col-md-4 col-4 d-flex align-items-center justify-content-center">
                         <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <div class="col-lg-2 col-md-4 col-4 d-flex align-items-center justify-content-center">
                         <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <div class="col-lg-2 col-md-4 col-4 d-flex align-items-center justify-content-center">
                         <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <div class="col-lg-2 col-md-4 col-4 d-flex align-items-center justify-content-center">
                         <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
                     </div>
 
                 </div>
+
             </div>
-        </section><!-- End Footer Brands Section -->
+        </section><!-- End Footer Clients Section -->
 
         <div class="footer-top">
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-3 col-md-6 footer-contact">
-                        <h3 class="jabduu-subheading">Jabduu<br />Motors</h3>
+                    <div class="col-lg-3 col-md-6 footer-contact text-center text-md-start">
+                        <h3 class="jabduu-subheading">Jabduu <br class="d-none d-md-block" />Motors</h3>
                         <p class="jabduu-paragraph">
-                            A108 Adam Street <br>
-                            New York, NY 535022<br>
-                            United States <br><br>
-                            <strong>Phone:</strong> +1 5589 55488 55<br>
+                            Bishoftu <br>
+                            Oromia, Ethiopia <br><br>
+                            <strong>Phone:</strong> +251 931 28 69 71<br>
                             <strong>Email:</strong> info@jabduumotors.com<br>
                         </p>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 footer-links">
+                    <div class="col-lg-3 col-6 footer-links text-center text-md-start">
                         <h4 class="jabduu-menu">Useful Links</h4>
                         <ul>
-                            <li><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">Home</a></li>
-                            <li><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">Awards</a></li>
-                            <li><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">About us</a></li>
-                            <li><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">Services</a></li>
-                            <li><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">Insights</a></li>
+                            <li class="offset-3 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">Home</a></li>
+                            <li class="offset-3 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">Awards</a></li>
+                            <li class="offset-3 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">About us</a></li>
+                            <li class="offset-3 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">Services</a></li>
+                            <li class="offset-3 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">Insights</a></li>
                         </ul>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 footer-links">
+                    <div class="col-lg-3 col-6 footer-links text-center text-md-start">
                         <h4 class="jabduu-menu">Our Offers</h4>
                         <ul>
-                            <li><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">Parts</a></li>
-                            <li><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">Products</a></li>
-                            <li><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">Trainings</a></li>
-                            <li><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">Maintenance</a></li>
-                            <li><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">User manuals</a></li>
+                            <li class="offset-4 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">Parts</a></li>
+                            <li class="offset-4 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">Products</a></li>
+                            <li class="offset-4 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">Trainings</a></li>
+                            <li class="offset-4 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">Maintenance</a></li>
+                            <li class="offset-4 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">User manuals</a></li>
                         </ul>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 footer-links">
+                    <div class="col-lg-3 col-md-6 footer-links text-center text-md-start">
                         <h4 class="jabduu-menu">Our Social Networks</h4>
-                        <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+                        <p>Follow and subscribe for fresh and trending information</p>
                         <div class="social-links mt-3">
-                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                            <a class="twitter"><i class="bx bxl-twitter"></i></a>
+                            <a class="facebook"><i class="bx bxl-facebook"></i></a>
+                            <a class="instagram"><i class="bx bxl-instagram"></i></a>
+                            <a class="linkedin"><i class="bx bxl-linkedin"></i></a>
                         </div>
                     </div>
 
@@ -455,7 +471,7 @@
                 <div><hr /></div>
             </div>
             <div class="copyright text-center">
-                &copy; Copyright <strong><span><a href="index.html">Jabduu Motors</a></span></strong>. All Rights Reserved - 2023
+                &copy; Copyright <strong><span><a href="#">Jabduu Motors</a></span></strong>. All Rights Reserved - 2023
             </div>
         </div>
     </footer><!-- End Footer -->
