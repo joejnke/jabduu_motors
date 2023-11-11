@@ -77,3 +77,18 @@
     background-color: #1D1D35;
     opacity: 1;
 }
+
+.testimony {
+    margin-bottom: 70px;
+}
+
+.testimony img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin-bottom: 5%;
+}
+
+.testimony h3 {
+    padding: 0 60px;
+}
