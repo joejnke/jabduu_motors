@@ -204,7 +204,8 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(29, 29, 53, 0.9);
+    background: linear-gradient(rgba(29, 29, 53, 1), rgba(29, 29, 53, 0.5));
+    backdrop-filter: blur(3px);
 }
 
 #header .logo {
