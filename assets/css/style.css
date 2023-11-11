@@ -384,6 +384,11 @@ h6 {
   .navbar ul {
     display: none;
   }
+
+  #header.header-scrolled,
+  #header.header-inner-pages {
+    backdrop-filter: none;
+  }
 }
 
 .navbar-mobile {
