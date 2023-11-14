@@ -8,6 +8,12 @@
 
 }
 
+@media (max-width: 991px) {
+    #get-in-touch {
+        background: linear-gradient(to bottom, rgba(150, 185, 206, 1) 1%, rgba(150, 185, 206, 0) 30%);
+    }
+}
+
 #get-in-touch .animated {
     animation: none;
 }

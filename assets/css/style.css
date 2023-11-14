@@ -208,6 +208,13 @@ h6 {
     backdrop-filter: blur(3px);
 }
 
+@media (max-width: 991px) {
+  #header.header-scrolled,
+  #header.header-inner-pages {
+      background: linear-gradient(to bottom, rgba(150, 185, 206, 1), rgba(150, 185, 206, 0.5)50%, rgba(150, 185, 206, 0)100%);
+  }
+}
+
 #header .logo {
   font-size: 30px;
   margin: 0;

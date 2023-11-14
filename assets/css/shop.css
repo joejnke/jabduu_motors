@@ -6,6 +6,12 @@
     background: linear-gradient(rgba(29, 29, 53, 1), rgba(29, 29, 53, 0.5), #fff);
 }
 
+@media (max-width: 991px) {
+    #shop-hero {
+        background: linear-gradient(to bottom, rgba(150, 185, 206, 1) 1%, rgba(150, 185, 206, 0) 30%);
+    }
+}
+
 #shop-hero .jabduu-heading {
     font-size: 50px;
     color: #1D1D35;
