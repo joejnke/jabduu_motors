@@ -500,6 +500,7 @@ h6 {
   color: rgba(169, 234, 186, 1);
   margin-bottom: 10px;
   font-size: 15px;
+  line-height: 1.8;
 }
 
 #hero .btn-jabduu-primary {
@@ -1107,7 +1108,8 @@ section {
 }
 
 .insights .card-text {
-    -webkit-box-reflect: below -24px linear-gradient(transparent, rgba(255,255,255,0.3));
+    padding-bottom: 18px;
+    -webkit-box-reflect: below -63px linear-gradient(transparent, rgba(255,255,255,0.3));
 }
 
 @media (max-width: 768px) {
