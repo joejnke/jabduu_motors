@@ -2291,10 +2291,6 @@ section {
   color: #fff;
 }
 
-#footer .copyright {
-  /*float: left;*/
-}
-
 #footer .credits {
   float: right;
   font-size: 13px;
@@ -2319,4 +2315,17 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+/*--------------------------------------------------------------
+# carousels
+--------------------------------------------------------------*/
+.carousel-inner {
+  padding: 50px 0 100px 0;
+}
+
+.carousel-item img {
+  height: 150px;
+  width: 150px;
+  border-radius: 200px;
 }

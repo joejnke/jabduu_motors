@@ -104,45 +104,78 @@
                         </h2>
                         <img class="pt-4" src="assets/img/trophy-vision.png" alt="mission image" />
                     </div>
-                    <!--
-                        <div class="col col-md-6 text-center vision">
-                        <div class="order-2 order-md-1">
-                            <h1 class="jabduu-heading">
-                                Vision
-                            </h1>
-                        </div>
-                        <div class="order-3 order-md-2">
-                            <h2 class="jabduu-paragraph">
-                                Be the leading manufacturer and supplier in the agricultural mechanization sector across Ethiopia and East Africa.
-                            </h2>
-                        </div>
-                        <div class="order-1 order-md-3"><img class="pt-4" src="assets/img/trophy-vision.png" alt="mission image" /></div>
-                    </div>
-                    -->
                 </div>
             </div>
         </section><!-- ======= End vismis - Vision and Mission Section ======= -->
         <!-- ======= Values section ======= -->
         <section id="values" class="values">
-            <div class="container my-0 my-md-5">
+            <div class="container my-0 my-md-2">
                 <h1 class="jabduu-heading text-center pb-0 pb-md-4">Our Values</h1>
-                <div class="row d-flex text-center pt-5 mt-0 pt-md-4 mt-md-5">
-                    <div class="col-md-4 pb-5 pb-md-0">
-                        <i class='bx bx-bulb bx-border-circle bx-lg  me-2'></i>
-                        <h2 class="jabduu-subheading value-title">Innovation</h2>
-                        <h3 class="jabduu-paragraph">Brilliant solutions to empower cities and organizations to drive positive change in their communities</p>
+                <div id="valuesCarousel" class="carousel slide d-none d-md-block">
+                    <!-- Carousel Slides -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center">
+                                <div class="col-md-4 flex-column align-items-center text-center">
+                                    <i class='bx bx-bulb bx-border-circle bx-lg  me-2'></i>
+                                    <h2 class="jabduu-subheading value-title">Innovation</h2>
+                                     <h3 class="jabduu-paragraph">Brilliant solutions to empower cities and organizations to drive positive change in their communities</h3>
+                                </div>
+                                <div class="col-md-4 flex-column align-items-center text-center">
+                                    <i class='bx bx-target-lock bx-border-circle bx-lg  me-2'></i>
+                                    <h2 class="jabduu-subheading value-title">Customer Focus</h2>
+                                    <h3 class="jabduu-paragraph">Exceptional customer service to ensure every client is satisfied with our products and services</h3>
+                                </div>
+                                <div class="col-md-4 flex-column align-items-center text-center">
+                                    <i class='bx bx-check-shield bx-border-circle bx-lg  me-2'></i>
+                                    <h2 class="jabduu-subheading value-title">Accountability</h2>
+                                    <h3 class="jabduu-paragraph">Committed to uphold the highest standards of accountability in all our business operations</h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 pb-5 pb-md-0">
-                        <i class='bx bx-target-lock bx-border-circle bx-lg  me-2'></i>
-                        <h2 class="jabduu-subheading value-title">Customer Focus</h2>
-                        <h3 class="jabduu-paragraph">Exceptional customer service to ensure every client is satisfied with our products and services</p>
+                </div> <!-- Desktop View Carousel -->
+
+                <div id="valuesCarousel" class="carousel slide d-block d-md-none" data-bs-ride="carousel">
+                    
+                    <!-- Carousel Indicators -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#valuesCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#valuesCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#valuesCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                    
+                    <!-- Carousel Slides -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col pt-5 pb-2 flex-column align-items-center text-center">
+                                    <i class='bx bx-bulb bx-border-circle bx-lg  me-2'></i>
+                                    <h2 class="jabduu-subheading value-title">Innovation</h2>
+                                    <h3 class="jabduu-paragraph">Brilliant solutions to empower cities and organizations to drive positive change in their communities</h3>
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col pt-5 pb-2 flex-column align-items-center text-center">
+                                    <i class='bx bx-target-lock bx-border-circle bx-lg  me-2'></i>
+                                    <h2 class="jabduu-subheading value-title">Customer Focus</h2>
+                                    <h3 class="jabduu-paragraph">Exceptional customer service to ensure every client is satisfied with our products and services</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row text-center justify-content-center">
+                                <div class="col pt-5 pb-2 flex-column align-items-center text-center">
+                                    <i class='bx bx-check-shield bx-border-circle bx-lg  me-2'></i>
+                                    <h2 class="jabduu-subheading value-title">Accountability</h2>
+                                    <h3 class="jabduu-paragraph">Committed to uphold the highest standards of accountability in all our business operations</h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <i class='bx bx-check-shield bx-border-circle bx-lg  me-2'></i>
-                        <h2 class="jabduu-subheading value-title">Accountability</h2>
-                        <h3 class="jabduu-paragraph">Committed to uphold the highest standards of accountability in all our business operations</p>
-                    </div>
-                </div>
+                </div> <!-- Mobile View Carousel -->
             </div>
         </section><!-- ======= End values section ======= -->
         <!-- ======= Partners and Clients Section ======= -->
@@ -216,8 +249,9 @@
         <!-- ======= Insights Section ======= -->
         <section id="insights" class="insights section-bg">
             <div class="container">
+                
                 <div class="row my-5 py-4">
-                    <div class="col-md-6 order-1 order-md-0">
+                    <div class="col-md-6 d-none d-md-block order-1 order-md-0">
                         <div class="row row-cols row-cols-md-2 pt-5">
                             <div class="card text-center insight-item">
                                 <div class="card-body">
@@ -247,6 +281,68 @@
                             </div> <!-- insight item -->
                         </div><!-- insight items group -->
                     </div>
+                    <div id="insightCarousel" class="carousel slide d-block d-md-none order-1 order-md-0" data-bs-ride="carousel">
+                    
+                        <!-- Carousel Indicators -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#insightCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#insightCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#insightCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#insightCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                          </div>
+                        
+                        <!-- Carousel Slides -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col pt-5 pb-2 flex-column align-items-center text-center">
+                                        <div class="card text-center insight-item">
+                                            <div class="card-body">
+                                                <h1 class="card-text jabduu-heading">+270K</h1>
+                                                <h4 class="card-title jabduu-subheading">Tractors</h4>
+                                            </div>
+                                        </div> <!-- insight item -->
+                                    </div>                                
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col pt-5 pb-2 flex-column align-items-center text-center">
+                                        <div class="card text-center insight-item">
+                                            <div class="card-body">
+                                                <h1 class="card-text jabduu-heading">+21K</h1>
+                                                <h4 class="card-title jabduu-subheading">Clients</h4>
+                                            </div>
+                                        </div> <!-- insight item -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row text-center justify-content-center">
+                                    <div class="col pt-5 pb-2 flex-column align-items-center text-center">
+                                        <div class="card text-center insight-item">
+                                            <div class="card-body">
+                                                <h1 class="card-text jabduu-heading">+120K</h1>
+                                                <h4 class="card-title jabduu-subheading">Parts</h4>
+                                            </div>
+                                        </div> <!-- insight item -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row text-center justify-content-center">
+                                    <div class="col pt-5 pb-2 flex-column align-items-center text-center">
+                                        <div class="card text-center insight-item">
+                                            <div class="card-body">
+                                                <h1 class="card-text jabduu-heading">+19K</h1>
+                                                <h4 class="card-title jabduu-subheading">Services</h4>
+                                            </div>
+                                        </div> <!-- insight item -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- Mobile View Carousel -->
                     <div class="col-md-6 d-flex flex-column justify-content-center order-0 order-md-1">
                         <h1 class="jabduu-heading text-center">Insights</h1>
                         <p class="jabduu-paragraph text-center">
@@ -258,34 +354,132 @@
         </section><!-- End Insights Section -->
         <!-- ======= Testimonial Section ======= -->
         <section id="testimonials" class="testimonials section-bg">
-            <div class="container">                  
-                <div class="row text-center">
-                    <div class="col-md-4 testimony">
-                        <img src="assets/img/testimonials/customer-1.jpg" alt="customer image" />
-                        <h3 class="jabduu-paragraph">I am really happy and satisfied with the water pumps, which I bought last year and I use for my construction project</h3>
-                        <h2 class="jabduu-subheading pt-2">Name</h2>
-                        <h2 class="jabduu-link">PM @ Company S.C</h2>
+            <div class="container">
+                <div id="testimonialCarousel" class="carousel slide d-none d-md-block">
+                    <!-- Carousel Slides -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center">
+                                <div class="col-md-4 flex-column align-items-center text-center">
+                                    <img src="assets/img/testimonials/customer-1.jpg" alt="Testimonial 1">
+                                    <p class="jabduu-paragraph pt-4">I am really happy and satisfied with the water pumps, which I bought last year and I use for my construction project</p>
+                                    <h2 class="jabduu-subheading">Pmpro Atfrst</h2>
+                                    <h2 class="jabduu-link">PM @ Company S.C</h2>
+                                </div>
+                                <div class="col-md-4 flex-column align-items-center text-center">
+                                    <img src="assets/img/testimonials/customer-2.jpg" alt="Testimonial 2">
+                                    <p class="jabduu-paragraph pt-4">The water sprinklers are so fantastic that covered to water the whole garden found in the backyards of my summer house</p>
+                                    <h2 class="jabduu-subheading">Sec Ceoname</h2>
+                                    <h2 class="jabduu-link">CEO @ Company Inc.</h2>
+                                </div>
+                                <div class="col-md-4 flex-column align-items-center text-center">
+                                    <img src="assets/img/testimonials/customer-3.jpg" alt="Testimonial 3">
+                                    <p class="jabduu-paragraph pt-4">I am amaized with the full spare part and accessories supply available for most of the products I bought from Jabduu's store</p>
+                                    <h2 class="jabduu-subheading">Dirname Thrd</h2>
+                                    <h2 class="jabduu-link">Director @ NGO</h2>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 testimony">
-                        <img src="assets/img/testimonials/customer-2.jpg" alt="customer image" />
-                        <h3 class="jabduu-paragraph">The water sprinklers are so fantastic that covered to water the whole garden found in the backyards of my summer house</h3>
-                        <h2 class="jabduu-subheading pt-2">Name</h2>
-                        <h2 class="jabduu-link">CEO @ Company PLC</h2>
+                </div> <!-- Desktop View Carousel -->
+
+                <div id="testimonialCarousel" class="carousel slide d-block d-md-none" data-bs-ride="carousel">
+                    
+                    <!-- Carousel Indicators -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                    
+                    <!-- Carousel Slides -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col pt-5 pb-2 flex-column align-items-center text-center">
+                                    <img src="assets/img/testimonials/customer-1.jpg" alt="Testimonial 1">
+                                    <p class="jabduu-paragraph pt-4">I am really happy and satisfied with the water pumps, which I bought last year and I use for my construction project</p>
+                                    <h2 class="jabduu-subheading">Pmpro Atfrst</h2>
+                                    <h2 class="jabduu-link">PM @ Company S.C</h2>
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col pt-5 pb-2 flex-column align-items-center text-center">
+                                    <img src="assets/img/testimonials/customer-2.jpg" alt="Testimonial 2">
+                                    <p class="jabduu-paragraph pt-4">The water sprinklers are so fantastic that covered to water the whole garden found in the backyards of my summer house</p>
+                                    <h2 class="jabduu-subheading">Sec Ceoname</h2>
+                                    <h2 class="jabduu-link">CEO @ Company Inc.</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row text-center justify-content-center">
+                                <div class="col pt-5 pb-2 flex-column align-items-center text-center">
+                                    <img src="assets/img/testimonials/customer-3.jpg" alt="Testimonial 3">
+                                    <p class="jabduu-paragraph pt-4">I am amaized with the full spare part and accessories supply available for most of the products I bought from Jabduu's store</p>
+                                    <h2 class="jabduu-subheading">Dirname Thrd</h2>
+                                    <h2 class="jabduu-link">Director @ NGO</h2>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 testimony">
-                        <img src="assets/img/testimonials/customer-3.jpg" alt="customer image" />
-                        <h3 class="jabduu-paragraph">I am amaized with the full spare part and accessories supply available for most of the products I bought from Jabduu's store</h3>
-                        <h2 class="jabduu-subheading pt-2">Name</h2>
-                        <h2 class="jabduu-link">Director @ NGO</h2>
-                    </div>
-                </div>
+                </div> <!-- Mobile View Carousel -->
             </div>
         </section><!-- End Testimonial Section -->
         <!-- ======= Awards Section ======= -->
         <section id="awards" class="awards section-bg">
             <div class="container">
                 <h1 class="jabduu-heading text-center">Awards</h1>
-                <div class="row" data-aos="zoom-in">
+                <div id="awardCarousel" class="carousel slide d-block d-md-none" data-bs-ride="carousel">
+                    <div class="carousel-inner text-center">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col d-flex align-items-center justify-content-center">
+                                    <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col d-flex align-items-center justify-content-center">
+                                    <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col d-flex align-items-center justify-content-center">
+                                    <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col d-flex align-items-center justify-content-center">
+                                    <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col d-flex align-items-center justify-content-center">
+                                    <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col d-flex align-items-center justify-content-center">
+                                    <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-none d-md-flex" data-aos="zoom-in">
+                    
                     <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                         <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
                     </div>

@@ -51,10 +51,25 @@
   .parcliens img {
     max-width: 40%;
   }
+  #awards .carousel-item img {
+    filter: none;
+  }
 }
 
 #awards {
     padding-bottom: 0;
+}
+
+#awards .carousel-item img {
+  max-width: 30%;
+  height: 74px;
+  width: auto;
+  border-radius: inherit;
+  justify-self: center;
+}
+
+#awards .carousel-inner {
+  padding: 0;
 }
 
 /*--------------------------------------------------------------
@@ -62,10 +77,6 @@
 --------------------------------------------------------------*/
 .testimonials {
   background: #b5e0f4;
-}
-
-.testimony {
-  padding: 70px 0;
 }
 
 #testimonials h2.jabduu-subheading {
@@ -77,15 +88,9 @@ color: #1D1D35;
 color: #013a52;
 }
 
-.testimony img {
-    width: 150px;
-    height: 150px;
-    border-radius: 75px;
-    margin-bottom: 5%;
-}
-
-.testimony h3{
-    padding: 0 35px;
+.col-md-4 {
+  display: flex;
+  justify-content: center;
 }
 
 /*--------------------------------------------------------------
@@ -166,13 +171,4 @@ color: #013a52;
 #awards h1 {
   -webkit-box-reflect: below -92px linear-gradient(transparent, rgba(255,255,255,0.3));
   padding-bottom: 30px;
-}
-
-/*--------------------------------------------------------------
-# Test carousel Section
---------------------------------------------------------------*/
-#testcar {
-  padding: 0 0 10px 0;
-  background-color: #fff;
-  color: #1D1D35;
 }
