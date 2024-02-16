@@ -85,15 +85,15 @@
         <!-- ======= item-catagory Section ======= -->
         <section id="item-cat" class="item-cat">
             <div class="container">
-                <div class="row-cols-4 d-flex text-center justify-content-center">
-                    <button type="button" id="btnGWP" class="btn btn-cat" style="font-weight: bold;">
+                <div class="row-cols-md-4 d-flex text-center justify-content-center">
+                    <button type="button" id="btnGWP" class="btn btn-cat">
                         Gasoline Water Pump
+                    </button>
+                    <button type="button" id="btnGen" class="btn btn-cat" style="font-weight: bold;">
+                        Generator
                     </button>
                     <button type="button" id="btnDWP" class="btn btn-cat">
                         Diesel Water Pump
-                    </button>
-                    <button type="button" id="btnGen" class="btn btn-cat">
-                        Generator
                     </button>
                 </div>
                 <div class="row justify-content-center mt-2">
@@ -102,7 +102,7 @@
             </div>
         </section><!-- ======= End item-catagory Section ======= -->
         <!-- ======= Gasoline Water Pump Shop Section ======= -->
-        <section id="gwp_shop" class="shop d-block">
+        <section id="gwp_shop" class="shop d-none">
             <div class="container">
                 <div class="row">
                     <div>
@@ -191,7 +191,7 @@
             </div>
         </section><!-- ======= End Gasoline Water Pump Shop Section ======= -->
         <!-- ======= Top-Items Section for Gasoline Water Pumps section ======= -->
-        <section id="gwp_top_items" class="top-items d-block">
+        <section id="gwp_top_items" class="top-items d-none">
             <div class="container mb-5">
                 <div class="row">
                     <h2 class="jabduu-subheading mb-4">Trending Products</h2>
@@ -240,6 +240,99 @@
 
             </div>
         </section><!-- ======= End Top-Items Section for Gasoline Water Pumps section ======= -->
+
+        <!-- ======= Generator Shop Section ======= -->
+        <section id="gen_shop" class="shop d-block">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <h2 class="jabduu-subheading mb-4">Electric Power Generators</h2>
+                        <div class="row d-flex ms-5 ms-md-0 justify-content-center justify-content-md-around">
+                            <div class="col-md-3 shop-item">
+                                <img src="assets/img/products/generator/diesel 3000rpm generator.jpg" class="shop-item-img">
+                                <h5 class="shop-item-name">Green Power</h5>
+                                <div class="d-flex item-label-group">
+                                    <h6><span class="label shop-item-label fuel-label">Diesel</span></h6>
+                                    <h6><span class="label shop-item-label rpm-label">3000 RPM</span></h6>
+                                    <h6><span class="label shop-item-label soundProofness-label">Open Sound</span></h6>
+                                </div>
+                                <button type="button" class="btn btn-jabduu-primary btn-order" data-toggle="modal" data-target="#acceptOrder">Order Now</button>
+                            </div><!-- shop item -->
+                            <div class="col-md-3 shop-item">
+                                <img src="assets/img/products/generator/silenced 3000rpm generator.JPG" class="shop-item-img">
+                                <h5 class="shop-item-name">Green Power</h5>
+                                <div class="d-flex item-label-group">
+                                    <h6><span class="label shop-item-label fuel-label">Diesel</span></h6>
+                                    <h6><span class="label shop-item-label rpm-label">3000 RPM</span></h6>
+                                    <h6><span class="label shop-item-label soundProofness-label">Sound Proof</span></h6>
+                                </div>
+                                <button type="button" class="btn btn-jabduu-primary btn-order" data-toggle="modal" data-target="#acceptOrder">Order Now</button>
+                            </div><!-- shop item -->
+                            <div class="col-md-3 shop-item">
+                                <img src="assets/img/products/generator/petrol 3000 rpm generator.jpg" class="shop-item-img">
+                                <h5 class="shop-item-name">Green Power</h5>
+                                <div class="d-flex item-label-group">
+                                    <h6><span class="label shop-item-label fuel-label">Gasoline</span></h6>
+                                    <h6><span class="label shop-item-label rpm-label">3000 RPM</span></h6>
+                                    <h6><span class="label shop-item-label soundProofness-label">Open Sound</span></h6>
+                                </div>
+                                <button type="button" class="btn btn-jabduu-primary btn-order" data-toggle="modal" data-target="#acceptOrder">Order Now</button>
+                            </div><!-- shop item -->
+                        </div><!-- gasoline water pumps -->
+                    </div><!-- shop item list -->
+                </div>
+            </div>
+        </section><!-- ======= End Generator Shop Section ======= -->
+        <!-- ======= Top-Items Section for Generator section ======= -->
+        <section id="gen_top_items" class="top-items d-block">
+            <div class="container mb-5">
+                <div class="row">
+                    <h2 class="jabduu-subheading mb-4">Trending Products</h2>
+                    <div class="col-md-3 ms-4 ms-md-0 shop-item">
+                        <img src="assets/img/products/water_pump/gasoline_water_pump/KGP40H.jpg" class="shop-item-img">
+                        <h5 class="shop-item-name">KGP40H</h5>
+                        <div class="d-flex item-label-group">
+                            <h6><span class="label shop-item-label fuel-label">Gasoline</span></h6>
+                            <h6><span class="label shop-item-label construction-label">Construction</span></h6>
+                            <h6><span class="label shop-item-label irrigation-label">Irrigation</span></h6>
+                        </div>
+                        <button type="button" class="btn btn-jabduu-primary btn-order" data-toggle="modal" data-target="#acceptOrder">Order Now</button>
+                    </div><!-- shop item -->
+                    <div class="col-md-3 ms-4 ms-md-0 shop-item">
+                        <img src="assets/img/products/water_pump/gasoline_water_pump/KGP50H.jpg" class="shop-item-img">
+                        <h5 class="shop-item-name">KGP50H</h5>
+                        <div class="d-flex item-label-group">
+                            <h6><span class="label shop-item-label fuel-label">Gasoline</span></h6>
+                            <h6><span class="label shop-item-label construction-label">Construction</span></h6>
+                            <h6><span class="label shop-item-label gardening-label">Gardening</span></h6>
+                        </div>
+                        <button type="button" class="btn btn-jabduu-primary btn-order" data-toggle="modal" data-target="#acceptOrder">Order Now</button>
+                    </div><!-- shop item -->
+                    <div class="col-md-3 ms-4 ms-md-0 shop-item">
+                        <img src="assets/img/products/water_pump/diesel_water_pump/KDP100B_L_LE.jpg" class="shop-item-img">
+                        <h5 class="shop-item-name">KDP100B/L/LE</h5>
+                        <div class="d-flex item-label-group">
+                            <h6><span class="label shop-item-label fuel-label">Diesel</span></h6>
+                            <h6><span class="label shop-item-label irrigation-label">Irrigation</span></h6>
+                            <h6><span class="label shop-item-label construction-label">Construction</span></h6>
+                        </div>
+                        <button type="button" class="btn btn-jabduu-primary btn-order" data-toggle="modal" data-target="#acceptOrder">Order Now</button>
+                    </div><!-- shop item -->
+                    <div class="col-md-3 ms-4 ms-md-0 shop-item">
+                        <img src="assets/img/products/water_pump/diesel_water_pump/KDP150L.jpg" class="shop-item-img">
+                        <h5 class="shop-item-name">KDP150L</h5>
+                        <div class="d-flex item-label-group">
+                            <h6><span class="label shop-item-label fuel-label">Diesel</span></h6>
+                            <h6><span class="label shop-item-label construction-label">Construction</span></h6>
+                            <h6><span class="label shop-item-label gardening-label">Gardening</span></h6>
+                        </div>
+                        <button type="button" class="btn btn-jabduu-primary btn-order" data-toggle="modal" data-target="#acceptOrder">Order Now</button>
+                    </div><!-- shop item -->
+
+                </div>
+
+            </div>
+        </section><!-- ======= End Top-Items Section for Generator section ======= -->
 
         <!-- ======= Diesel Water Pump Shop Section ======= -->
         <section id="dwp_shop" class="shop d-none">
@@ -399,99 +492,6 @@
 
             </div>
         </section><!-- ======= End Top-Items Section for Diesel Water Pumps section ======= -->
-
-        <!-- ======= Generator Shop Section ======= -->
-        <section id="gen_shop" class="shop d-none">
-            <div class="container">
-                <div class="row">
-                    <div>
-                        <h2 class="jabduu-subheading mb-4">Electric Power Generators</h2>
-                        <div class="row d-flex ms-5 ms-md-0 justify-content-center justify-content-md-around">
-                            <div class="col-md-3 shop-item">
-                                <img src="assets/img/products/generator/diesel 3000rpm generator.jpg" class="shop-item-img">
-                                <h5 class="shop-item-name">Green Power</h5>
-                                <div class="d-flex item-label-group">
-                                    <h6><span class="label shop-item-label fuel-label">Diesel</span></h6>
-                                    <h6><span class="label shop-item-label rpm-label">3000 RPM</span></h6>
-                                    <h6><span class="label shop-item-label soundProofness-label">Open Sound</span></h6>
-                                </div>
-                                <button type="button" class="btn btn-jabduu-primary btn-order" data-toggle="modal" data-target="#acceptOrder">Order Now</button>
-                            </div><!-- shop item -->
-                            <div class="col-md-3 shop-item">
-                                <img src="assets/img/products/generator/silenced 3000rpm generator.JPG" class="shop-item-img">
-                                <h5 class="shop-item-name">Green Power</h5>
-                                <div class="d-flex item-label-group">
-                                    <h6><span class="label shop-item-label fuel-label">Diesel</span></h6>
-                                    <h6><span class="label shop-item-label rpm-label">3000 RPM</span></h6>
-                                    <h6><span class="label shop-item-label soundProofness-label">Sound Proof</span></h6>
-                                </div>
-                                <button type="button" class="btn btn-jabduu-primary btn-order" data-toggle="modal" data-target="#acceptOrder">Order Now</button>
-                            </div><!-- shop item -->
-                            <div class="col-md-3 shop-item">
-                                <img src="assets/img/products/generator/petrol 3000 rpm generator.jpg" class="shop-item-img">
-                                <h5 class="shop-item-name">Green Power</h5>
-                                <div class="d-flex item-label-group">
-                                    <h6><span class="label shop-item-label fuel-label">Gasoline</span></h6>
-                                    <h6><span class="label shop-item-label rpm-label">3000 RPM</span></h6>
-                                    <h6><span class="label shop-item-label soundProofness-label">Open Sound</span></h6>
-                                </div>
-                                <button type="button" class="btn btn-jabduu-primary btn-order" data-toggle="modal" data-target="#acceptOrder">Order Now</button>
-                            </div><!-- shop item -->
-                        </div><!-- gasoline water pumps -->
-                    </div><!-- shop item list -->
-                </div>
-            </div>
-        </section><!-- ======= End Generator Shop Section ======= -->
-        <!-- ======= Top-Items Section for Generator section ======= -->
-        <section id="gen_top_items" class="top-items d-none">
-            <div class="container mb-5">
-                <div class="row">
-                    <h2 class="jabduu-subheading mb-4">Trending Products</h2>
-                    <div class="col-md-3 ms-4 ms-md-0 shop-item">
-                        <img src="assets/img/products/water_pump/gasoline_water_pump/KGP40H.jpg" class="shop-item-img">
-                        <h5 class="shop-item-name">KGP40H</h5>
-                        <div class="d-flex item-label-group">
-                            <h6><span class="label shop-item-label fuel-label">Gasoline</span></h6>
-                            <h6><span class="label shop-item-label construction-label">Construction</span></h6>
-                            <h6><span class="label shop-item-label irrigation-label">Irrigation</span></h6>
-                        </div>
-                        <button type="button" class="btn btn-jabduu-primary btn-order" data-toggle="modal" data-target="#acceptOrder">Order Now</button>
-                    </div><!-- shop item -->
-                    <div class="col-md-3 ms-4 ms-md-0 shop-item">
-                        <img src="assets/img/products/water_pump/gasoline_water_pump/KGP50H.jpg" class="shop-item-img">
-                        <h5 class="shop-item-name">KGP50H</h5>
-                        <div class="d-flex item-label-group">
-                            <h6><span class="label shop-item-label fuel-label">Gasoline</span></h6>
-                            <h6><span class="label shop-item-label construction-label">Construction</span></h6>
-                            <h6><span class="label shop-item-label gardening-label">Gardening</span></h6>
-                        </div>
-                        <button type="button" class="btn btn-jabduu-primary btn-order" data-toggle="modal" data-target="#acceptOrder">Order Now</button>
-                    </div><!-- shop item -->
-                    <div class="col-md-3 ms-4 ms-md-0 shop-item">
-                        <img src="assets/img/products/water_pump/diesel_water_pump/KDP100B_L_LE.jpg" class="shop-item-img">
-                        <h5 class="shop-item-name">KDP100B/L/LE</h5>
-                        <div class="d-flex item-label-group">
-                            <h6><span class="label shop-item-label fuel-label">Diesel</span></h6>
-                            <h6><span class="label shop-item-label irrigation-label">Irrigation</span></h6>
-                            <h6><span class="label shop-item-label construction-label">Construction</span></h6>
-                        </div>
-                        <button type="button" class="btn btn-jabduu-primary btn-order" data-toggle="modal" data-target="#acceptOrder">Order Now</button>
-                    </div><!-- shop item -->
-                    <div class="col-md-3 ms-4 ms-md-0 shop-item">
-                        <img src="assets/img/products/water_pump/diesel_water_pump/KDP150L.jpg" class="shop-item-img">
-                        <h5 class="shop-item-name">KDP150L</h5>
-                        <div class="d-flex item-label-group">
-                            <h6><span class="label shop-item-label fuel-label">Diesel</span></h6>
-                            <h6><span class="label shop-item-label construction-label">Construction</span></h6>
-                            <h6><span class="label shop-item-label gardening-label">Gardening</span></h6>
-                        </div>
-                        <button type="button" class="btn btn-jabduu-primary btn-order" data-toggle="modal" data-target="#acceptOrder">Order Now</button>
-                    </div><!-- shop item -->
-
-                </div>
-
-            </div>
-        </section><!-- ======= End Top-Items Section for Generator section ======= -->
 
     </main><!-- End #main -->
     <!-- ======= Footer ======= -->
