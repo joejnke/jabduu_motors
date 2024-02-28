@@ -168,10 +168,9 @@
                     <div class="col-lg-3 col-6 footer-links text-center text-md-start">
                         <h4 class="jabduu-menu">Useful Links</h4>
                         <ul>
-                            <li class="offset-3 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="/index.html">Home</a></li>
-                            <li class="offset-3 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="/about.html#awards">Awards</a></li>
+                            <li class="offset-3 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="#">Home</a></li>
+                            <li class="offset-3 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="/about.html#vismis">Mission &amp; Vision</a></li>
                             <li class="offset-3 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="/about.html">About us</a></li>
-                            <li class="offset-3 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="/services.html">Services</a></li>
                             <li class="offset-3 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="/about.html#insights">Insights</a></li>
                         </ul>
                     </div>
@@ -179,11 +178,9 @@
                     <div class="col-lg-3 col-6 footer-links text-center text-md-start">
                         <h4 class="jabduu-menu">Our Offers</h4>
                         <ul>
-                            <li class="offset-4 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="/products.html">Parts</a></li>
                             <li class="offset-4 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="/products.html">Products</a></li>
-                            <li class="offset-4 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="/services.html">Trainings</a></li>
-                            <li class="offset-4 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="/services.html">Maintenance</a></li>
-                            <li class="offset-4 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="/services.html">User manuals</a></li>
+                            <li class="offset-4 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="/services.html">Services</a></li>
+                            <li class="offset-4 offset-md-0"><i class="bx bx-chevron-right jabduu-link"></i> <a href="/news.html">Latest Update</a></li>
                         </ul>
                     </div>
 
@@ -215,6 +212,57 @@
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+    <!-- Order Accepting Modal -->
+    <div class="modal fade" id="acceptOrder" tabindex="-1" role="dialog" aria-labelledby="acceptOrderTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content" id="acceptOrderContent">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Ordering Form</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                        <div class="col-lg-12 contact-form">
+                        <form class="ms-lg-10">
+                            <div class="col mb-2">
+                                <label class="form-label" for="name">Name</label>
+                                <input type="text" class="form-control" id="name" required placeholder="company or contact person name"/>
+                            </div>
+                            <div class="col mb-2">
+                                <label class="form-label" for="phoneNum">Phone Number</label>
+                                <input type="text" class="form-control" id="phoneNum" required placeholder="09XX XXX XXX"/>
+                            </div>
+                            <div class="col mb-2">
+                                <label class="form-label" for="emailAddress">Email Address</label>
+                                <input type="email" class="form-control" id="emailAddress" placeholder="your email address"/>
+                            </div>
+                            <div class="col mb-2">
+                                <label class="form-label" for="productName">Product/Service Name</label>
+                                <input type="text" class="form-control" id="productName" required placeholder="product/Service name"/>
+                            </div>
+                            <div class="col mb-2">
+                                <label class="form-label" for="qty">Qty</label>
+                                <input type="number" class="form-control" id="qty" required placeholder="order quantity"/>
+                            </div>
+                            <div class="col mb-2">
+                                <label class="form-label" for="emailAddress">Message</label>
+                                <textarea type="text" rows="3" class="form-control" id="emailAddress" placeholder="your message" required></textarea>
+                            </div>
+                            <div class="col">
+                                <button type="submit" class="btn btn-jabduu-modal">Submit Order</button>
+                            </div>
+                        </form>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Vendor JS Files -->
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -226,6 +274,10 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <!-- JS files for the Order Accepting Modal-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 
