@@ -1,21 +1,29 @@
 /*--------------------------------------------------------------
-# Hero Section
+# News Hero Section
 --------------------------------------------------------------*/
-/* #hero {
-    text-align: center;
+#news-hero {
+    padding-top: 100px;
+    background: linear-gradient(rgba(29, 29, 53, 1), rgba(29, 29, 53, 0.5), #fff);
 }
 
-#hero .animated {
-    animation: none;
+@media (max-width: 991px) {
+    #news-hero {
+        background: linear-gradient(to bottom, rgba(150, 185, 206, 1) 1%, rgba(150, 185, 206, 0) 30%);
+    }
 }
 
-#hero .jabduu-heading {
-    margin: 50px 0 30px 0;
-    letter-spacing: 5px;
+#news-hero .jabduu-heading {
+    font-size: 50px;
+    color: #1D1D35;
+    margin-bottom: 0;
+    margin-top: 50px;
 }
 
-#hero .jabduu-paragraph {
-    margin: 10px 0 10px 0;
-    letter-spacing: 1px;
-    line-height: 30px;
-} */
+#news-hero .jabduu-menu {
+    font-size: 21px;    
+    color: #1D1D35;
+}
+
+.recent-post {
+    background: #fff;
+}
