@@ -106,12 +106,35 @@
     margin-bottom: 5px;
 }
 
+.shop h1, h2 {
+    color: #1d1d35;
+}
+
 .shop .shop-item-img {
     height: 250px;
     width: 240px;
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 5px;
+}
+
+.shop .btn-jabduu-primary {
+    font-family: "Poppins", "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 1px 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+    color: #fff;
+    background: #691212;
+    border: 3px solid #1d1d35;
+}
+
+.shop .btn-jabduu-primary:hover {
+    background: #1d1d35;
+    border: 3px solid #691212;
 }
 
 .shop-item-name {
