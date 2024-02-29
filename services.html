@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <!-- redirect to under-construction page-->
-    <meta http-equiv="refresh" content="0;url=/under-construction.html">
+    
+    
         
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -87,283 +87,77 @@
     <main id="main">
         <!-- ======= item-catagory Section ======= -->
         <section id="item-cat" class="item-cat">
-            <div class="container p-0">
-                <div class="row-cols-4 d-flex text-center justify-content-center">
-                    <a class="filter-active" href="#"><h6>Maintenance</h6></a>
-                    <a class="d-none d-md-block" href="#"><h6>User Manual</h6></a>
-                    <a href="#"><h6>Training</h6></a>
-                    <a class="d-none d-md-block" href="#"><h6>Machine Operators</h6></a>
+            <div class="container">
+                <div class="row-cols-md-4 d-flex text-center justify-content-center">
+                    <button type="button" id="btnUsm" class="btn btn-cat">
+                        User Manual
+                    </button>
+                    <button type="button" id="btnTra" class="btn btn-cat" style="font-weight: bold;">
+                        Training
+                    </button>
+                    <button type="button" id="btnIns" class="btn btn-cat">
+                        Installation
+                    </button>
                 </div>
                 <div class="row justify-content-center mt-2">
                     <hr class="align-self-center" />
                 </div>
             </div>
         </section><!-- ======= End item-catagory Section ======= -->
-        <!-- ======= Shop Section ======= -->
-        <section id="shop" class="shop">
+        <!-- ======= User Manual Service Section ======= -->
+        <section id="usm_serv" class="shop d-none">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 d-none d-md-block">
-                        <div class="item-filter-group">
-                            <h6>Application</h6>
-                            <div class="filter-labels">
-                                <a href="#"><span class="label shop-filter-label">Construction</span></a>
-                                <a href="#"><span class="label shop-filter-label">Agriculture</span></a>
-                                <a href="#"><span class="label shop-filter-label">Municipal</span></a>
-                            </div>
+                    <div class="col-lg-6 d-flex flex-column justify-content-center mb-5 mb-lg-0 order-1 order-lg-0" data-aos="fade-up" data-aos-delay="200">
+                        <h1 class="jabduu-heading">User Manuals</h1>
+                        <h2 class="jabduu-paragraph"> user manuals for our range of water pumps and generators, ensuring seamless operation and optimal performance.</h2>
+                        <div class="d-flex justify-content-center justify-content-lg-start">
+                                <button type="button" class="btn btn-jabduu-secondary btn-order" data-toggle="modal" data-target="#acceptOrder">Order Now</button>
                         </div>
-                        <div class="item-filter-group">
-                            <h6>Brand</h6>
-                            <div class="filter-labels">
-                                <a href="#"><span class="label shop-filter-label">John Deere</span></a>
-                                <a href="#"><span class="label shop-filter-label">Municipal</span></a>
-                            </div>
-                        </div>
-                        <div class="item-filter-group">
-                            <h6>Price</h6>
-                            <div class="filter-labels">
-                                <a href="#"><span class="label shop-filter-label">&lt;21 ETB</span></a>
-                                <a href="#"><span class="label shop-filter-label">21 ETB - 200 ETB</span></a>
-                                <a href="#"><span class="label shop-filter-label">&gt;200 ETB</span></a>
-                            </div>
-                        </div>
-                        <div class="item-filter-group">
-                            <h6>Category</h6>
-                            <div class="filter-labels">
-                                <a href="#"><span class="label shop-filter-label">Training</span></a>
-                                <a href="#"><span class="label shop-filter-label">Maintenance</span></a>
-                                <a href="#"><span class="label shop-filter-label">Technician</span></a>
-                                <a href="#"><span class="label shop-filter-label">Machine Operator</span></a>
-                                <a href="#"><span class="label shop-filter-label">User Manual</span></a>
-                            </div>
-                        </div>
-                        <div class="shop-recent-post d-none d-lg-block">
-                            <div>
-                                <h2 class="pt-5 mt-5 jabduu-subheading">Recently Posted</h2>
-                            </div>
-                            <div class="post-item">
-                                <img src="assets/img/jabduu-news.png" alt="post item">
-                                <a href="#">
-                                    <p class="jabduu-paragraph pt-1 pb-0 mb-1" style="color: #1d1d35; font-weight: bold;">Clickable title of the news with brief - heading</p>
-                                    <h6 class="jabduu-paragraph" style="color: gray;">October 3, 2023</h6>
-                                </a>
-                            </div><!-- post item -->
-                            <div class="post-item">
-                                <img src="assets/img/jabduu-news.png" alt="post item">
-                                <a href="#">
-                                    <p class="jabduu-paragraph pt-1 pb-0 mb-1" style="color: #1d1d35; font-weight: bold;">Clickable title of the news with brief - heading</p>
-                                    <h6 class="jabduu-paragraph" style="color: gray;">October 3, 2023</h6>
-                                </a>
-                            </div><!-- post item -->
-                        </div>
-                        <div class="shop-newsletter text-center d-none d-lg-block">
-                            <h4 class="jabduu-menu">Subscribe To Our Newsletter</h4>
-                            <form action="" method="post">
-                                <div class="row">
-                                    <input type="email" name="email" placeholder="your email address">
-                                    <i class='bx bxs-envelope bx-sm'></i>
-                                </div>
-                                <input class="btn btn-jabduu-primary" type="submit" value="Subscribe">
-                            </form>
-                        </div>
-                    </div><!-- side bar -->
-                    <div class="col-md-9">
-                        <div class="breadcrumb d-flex justify-content-center justify-content-md-start">
-                            <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="#">Services</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Maintenance</li>
-                                </ol>
-                            </nav>
-                        </div>
-                        <h2 class="jabduu-subheading mb-4">Maintenance Services</h2>
-                        <div class="row d-flex ms-5 ms-md-0 justify-content-center justify-content-md-around">
-                            <div class="col-md-6 col-lg-3 shop-item">
-                                <img src="assets/img/products/agri-water-pump.jpg" class="shop-item-img">
-                                <h5 class="shop-item-name">Irrigation</h5>
-                                <div class="d-flex item-label-group">
-                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
-                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
-                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
-                                </div>
-                                <h5 class="shop-item-price">21 ETB</h5>
-                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
-                            </div><!-- shop item -->
-                            <div class="col-md-6 col-lg-3 shop-item">
-                                <img src="assets/img/products/municipal-water-pump.jpg" class="shop-item-img">
-                                <h5 class="shop-item-name">Water Supply</h5>
-                                <div class="d-flex item-label-group">
-                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
-                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
-                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
-                                </div>
-                                <h5 class="shop-item-price">21 ETB</h5>
-                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
-                            </div><!-- shop item -->
-                            <div class="col-md-6 col-lg-3 shop-item">
-                                <img src="assets/img/products/user-manual.png" class="shop-item-img">
-                                <h5 class="shop-item-name">User Manual</h5>
-                                <div class="d-flex item-label-group">
-                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
-                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
-                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
-                                </div>
-                                <h5 class="shop-item-price">21 ETB</h5>
-                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
-                            </div><!-- shop item -->
-                            <div class="col-md-6 col-lg-3 shop-item d-block d-lg-none">
-                                <img src="assets/img/products/construction-water-pump.jpg" class="shop-item-img">
-                                <h5 class="shop-item-name">Planting</h5>
-                                <div class="d-flex item-label-group">
-                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
-                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
-                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
-                                </div>
-                                <h5 class="shop-item-price">21 ETB</h5>
-                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
-                            </div><!-- shop item -->
-                        </div><!-- maintenance service catagory -->
-                        <div class="row d-flex ms-5 ms-md-0 justify-content-center justify-content-md-around justify-content-around">
-                            <div class="col-md-6 col-lg-3 shop-item">
-                                <img src="assets/img/products/water-pump-maintenance.jpg" class="shop-item-img">
-                                <h5 class="shop-item-name">Maintenance</h5>
-                                <div class="d-flex item-label-group">
-                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
-                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
-                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
-                                </div>
-                                <h5 class="shop-item-price">21 ETB</h5>
-                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
-                            </div><!-- shop item -->
-                            <div class="col-md-6 col-lg-3 shop-item">
-                                <img src="assets/img/products/water-pump-installation.jpg" class="shop-item-img">
-                                <h5 class="shop-item-name">Installation</h5>
-                                <div class="d-flex item-label-group">
-                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
-                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
-                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
-                                </div>
-                                <h5 class="shop-item-price">21 ETB</h5>
-                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
-                            </div><!-- shop item -->
-                            <div class="col-md-6 col-lg-3 shop-item">
-                                <img src="assets/img/products/construction-water-pump.jpg" class="shop-item-img">
-                                <h5 class="shop-item-name">Planting</h5>
-                                <div class="d-flex item-label-group">
-                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
-                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
-                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
-                                </div>
-                                <h5 class="shop-item-price">21 ETB</h5>
-                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
-                            </div><!-- shop item -->
-                            <div class="col-md-6 col-lg-3 shop-item d-block d-lg-none">
-                                <img src="assets/img/products/municipal-water-pump.jpg" class="shop-item-img">
-                                <h5 class="shop-item-name">Water Supply</h5>
-                                <div class="d-flex item-label-group">
-                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
-                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
-                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
-                                </div>
-                                <h5 class="shop-item-price">21 ETB</h5>
-                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
-                            </div><!-- shop item -->
-                        </div><!-- maintenance service catagory -->
-                        <h2 class="jabduu-subheading mb-4">User Manuals</h2>
-                        <div class="row d-flex ms-5 ms-md-0 justify-content-center justify-content-md-around justify-content-around">
-                            <div class="col-md-6 col-lg-3 shop-item">
-                                <img src="assets/img/products/user-manual.png" class="shop-item-img">
-                                <h5 class="shop-item-name">Guide Books</h5>
-                                <div class="d-flex item-label-group">
-                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
-                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
-                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
-                                </div>
-                                <h5 class="shop-item-price">21 ETB</h5>
-                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
-                            </div><!-- shop item -->
-                            <div class="col-md-6 col-lg-3 shop-item">
-                                <img src="assets/img/products/water-pump-installation.jpg" class="shop-item-img">
-                                <h5 class="shop-item-name">Field Support</h5>
-                                <div class="d-flex item-label-group">
-                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
-                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
-                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
-                                </div>
-                                <h5 class="shop-item-price">21 ETB</h5>
-                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
-                            </div><!-- shop item -->
-                            <div class="col-md-6 col-lg-3 shop-item">
-                                <img src="assets/img/products/water-pump-training.jpg" class="shop-item-img">
-                                <h5 class="shop-item-name">Training</h5>
-                                <div class="d-flex item-label-group">
-                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
-                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
-                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
-                                </div>
-                                <h5 class="shop-item-price">21 ETB</h5>
-                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
-                            </div><!-- shop item -->
-                            <div class="col-md-6 col-lg-3 shop-item d-block d-lg-none">
-                                <img src="assets/img/products/agri-water-pump.jpg" class="shop-item-img">
-                                <h5 class="shop-item-name">Irrigation</h5>
-                                <div class="d-flex item-label-group">
-                                    <h6><span class="label shop-item-label construction-label">Construction</span></h6>
-                                    <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
-                                    <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
-                                </div>
-                                <h5 class="shop-item-price">21 ETB</h5>
-                                <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
-                            </div><!-- shop item -->
-                        </div><!-- user manual service catagory -->
-                    </div><!-- shop item list -->
+                    </div>
+                    <div class="col-lg-6 hero-img order-0 order-lg-1" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="assets/img/products/user-manual.png" class="img-fluid animated" alt="user manual service image" style="border-radius: 1200px 1200px 1200px 0;">
+                    </div>
                 </div>
             </div>
-        </section><!-- ======= End Shop Section ======= -->
-        <!-- ======= Top-Items Section ======= -->
-        <section id="top-items" class="top-items">
-            <div class="container mb-5">
+        </section><!-- ======= End User Manual Service Section ======= -->
+        
+        <!-- ======= Training Service Section ======= -->
+        <section id="tra_serv" class="shop d-block">
+            <div class="container">
                 <div class="row">
-                    <h2 class="jabduu-subheading mb-4">Top Services</h2>
-                    <div class="col-md-4 ms-4 ms-md-0 shop-item">
-                        <img src="assets/img/products/municipal-water-pump.jpg" class="shop-item-img">
-                        <h5 class="shop-item-name">City Water</h5>
-                        <div class="d-flex item-label-group">
-                            <h6><span class="label shop-item-label construction-label">Construction</span></h6>
-                            <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
-                            <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
+                    <div class="col-lg-6 d-flex flex-column justify-content-center mb-5 mb-lg-0 order-1 order-lg-0" data-aos="fade-up" data-aos-delay="200">
+                        <h1 class="jabduu-heading">Training</h1>
+                        <h2 class="jabduu-paragraph">Boost proficiency with our focused training services for water pumps and generators, ensuring optimal performance.</h2>
+                        <div class="d-flex justify-content-center justify-content-lg-start">
+                            <button type="button" class="btn btn-jabduu-secondary btn-order" data-toggle="modal" data-target="#acceptOrder">Order Now</button>
                         </div>
-                        <h5 class="shop-item-price">21 ETB</h5>
-                        <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
-                    </div><!-- shop item -->
-                    <div class="col-md-4 ms-4 ms-md-0 shop-item">
-                        <img src="assets/img/products/user-manual.png" class="shop-item-img">
-                        <h5 class="shop-item-name">User Manual</h5>
-                        <div class="d-flex item-label-group">
-                            <h6><span class="label shop-item-label construction-label">Construction</span></h6>
-                            <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
-                            <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
-                        </div>
-                        <h5 class="shop-item-price">21 ETB</h5>
-                        <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
-                    </div><!-- shop item -->
-                    <div class="col-md-4 ms-4 ms-md-0 shop-item">
-                        <img src="assets/img/products/water-pump-maintenance.jpg" class="shop-item-img">
-                        <h5 class="shop-item-name">Maintenance</h5>
-                        <div class="d-flex item-label-group">
-                            <h6><span class="label shop-item-label construction-label">Construction</span></h6>
-                            <h6><span class="label shop-item-label agriculture-label">Agriculture</span></h6>
-                            <h6><span class="label shop-item-label municipal-label">Municipal</span></h6>
-                        </div>
-                        <h5 class="shop-item-price">21 ETB</h5>
-                        <button type="button" class="btn btn-jabduu-primary btn-order">Order Now</button>
-                    </div><!-- shop item -->
-
+                    </div>
+                    <div class="col-lg-6 hero-img order-0 order-lg-1" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="assets/img/products/water-pump-training.jpg" class="img-fluid animated" alt="training image" style="border-radius: 1200px 1200px 1200px 0;">
+                    </div>
                 </div>
-                
             </div>
-        </section><!-- ======= End Top-Items Section ======= -->
+        </section><!-- ======= End Training Service Section ======= -->
+
+        <!-- ======= Installation Service Section ======= -->
+        <section id="ins_serv" class="shop d-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center mb-5 mb-lg-0 order-1 order-lg-0" data-aos="fade-up" data-aos-delay="200">
+                        <h1 class="jabduu-heading">Installation Service</h1>
+                        <h2 class="jabduu-paragraph">Ensure a hassle-free experience with our professional installation services for water pumps and generators, providing a smooth setup to optimize performance and reliability.</h2>
+                        <div class="d-flex justify-content-center justify-content-lg-start">
+                            <button type="button" class="btn btn-jabduu-secondary btn-order" data-toggle="modal" data-target="#acceptOrder">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 hero-img order-0 order-lg-1" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="assets/img/products/water-pump-installation.jpg" class="img-fluid animated" alt="installation image" style="border-radius: 1200px 1200px 1200px 0;">
+                    </div>
+                </div>
+            </div>
+        </section><!-- ======= End Installation Service Section ======= -->
+    
     </main><!-- End #main -->
     <!-- ======= Footer ======= -->
     <footer id="footer">

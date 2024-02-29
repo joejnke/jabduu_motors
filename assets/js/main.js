@@ -256,6 +256,70 @@
   });
 
   /**
+   * Service page section visibility
+   * control based on service category selected
+   */
+  window.addEventListener('load', function() {
+    // Get button elements by ID
+    var btnUsm = document.getElementById('btnUsm');
+    var btnTra = document.getElementById('btnTra');
+    var btnIns = document.getElementById('btnIns');
+
+    // Get sections by ID
+    var usm_serv = document.getElementById('usm_serv');
+    var tra_serv = document.getElementById('tra_serv');
+    var ins_serv = document.getElementById('ins_serv');
+
+    // Attach a click event listener to the btnUsm button
+    btnUsm.addEventListener('click', function() {
+    btnUsm.style.fontWeight='bold';
+    btnTra.style.fontWeight='normal';
+    btnIns.style.fontWeight='normal';
+
+    usm_serv.classList.remove('d-none');
+    usm_serv.classList.add('d-block');
+
+    tra_serv.classList.remove('d-block');
+    tra_serv.classList.add('d-none');
+
+    ins_serv.classList.remove('d-block');
+    ins_serv.classList.add('d-none');    
+    });
+
+    // Attach a click event listener to the btnTra button
+    btnTra.addEventListener('click', function() {
+    btnTra.style.fontWeight='bold';
+    btnUsm.style.fontWeight='normal';
+    btnIns.style.fontWeight='normal';
+
+    tra_serv.classList.remove('d-none');
+    tra_serv.classList.add('d-block');
+
+    usm_serv.classList.remove('d-block');
+    usm_serv.classList.add('d-none');
+
+    ins_serv.classList.remove('d-block');
+    ins_serv.classList.add('d-none');    
+  });
+
+    // Attach a click event listener to the btnIns button
+    btnIns.addEventListener('click', function() {
+    btnIns.style.fontWeight='bold';
+    btnUsm.style.fontWeight='normal';
+    btnTra.style.fontWeight='normal';
+
+    ins_serv.classList.remove('d-none');
+    ins_serv.classList.add('d-block');
+
+    usm_serv.classList.remove('d-block');
+    usm_serv.classList.add('d-none');
+
+    tra_serv.classList.remove('d-block');
+    tra_serv.classList.add('d-none');    
+    });
+  });
+
+  /**
    * Product page products section visibility
    * control based on product category selected
    */
