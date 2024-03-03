@@ -325,33 +325,33 @@
    */
   window.addEventListener('load', function() {
     // Get button elements by ID
-    var btnGWP = document.getElementById('btnGWP');
-    var btnDWP = document.getElementById('btnDWP');
+    var btnWP = document.getElementById('btnWP');
+    var btnRGS = document.getElementById('btnRGS');
     var btnGen = document.getElementById('btnGen');
 
     // Get sections by ID
-    var gwp_shop = document.getElementById('gwp_shop');
-    var gwp_top_items = document.getElementById('gwp_top_items');
-    var dwp_shop = document.getElementById('dwp_shop');
-    var dwp_top_items = document.getElementById('dwp_top_items');
+    var wp_shop = document.getElementById('wp_shop');
+    var wp_top_items = document.getElementById('wp_top_items');
+    var rgs_shop = document.getElementById('rgs_shop');
+    var rgs_top_items = document.getElementById('rgs_top_items');
     var gen_shop = document.getElementById('gen_shop');
     var gen_top_items = document.getElementById('gen_top_items');
     
-    // Attach a click event listener to the btnGWP button
-    btnGWP.addEventListener('click', function() {
-      btnGWP.style.fontWeight='bold';
-      btnDWP.style.fontWeight='normal';
+    // Attach a click event listener to the btnWP button
+    btnWP.addEventListener('click', function() {
+      btnWP.style.fontWeight='bold';
+      btnRGS.style.fontWeight='normal';
       btnGen.style.fontWeight='normal';
 
-      gwp_shop.classList.remove('d-none');
-      gwp_shop.classList.add('d-block');
-      gwp_top_items.classList.remove('d-none');
-      gwp_top_items.classList.add('d-block');
+      wp_shop.classList.remove('d-none');
+      wp_shop.classList.add('d-block');
+      wp_top_items.classList.remove('d-none');
+      wp_top_items.classList.add('d-block');
 
-      dwp_shop.classList.remove('d-block');
-      dwp_shop.classList.add('d-none');
-      dwp_top_items.classList.remove('d-block');
-      dwp_top_items.classList.add('d-none');
+      rgs_shop.classList.remove('d-block');
+      rgs_shop.classList.add('d-none');
+      rgs_top_items.classList.remove('d-block');
+      rgs_top_items.classList.add('d-none');
 
       gen_shop.classList.remove('d-block');
       gen_shop.classList.add('d-none');
@@ -359,21 +359,21 @@
       gen_top_items.classList.add('d-none');
     });
 
-    // Attach a click event listener to the btnDWP button
-    btnDWP.addEventListener('click', function() {
-      btnDWP.style.fontWeight='bold';
-      btnGWP.style.fontWeight='normal';
+    // Attach a click event listener to the btnRGS button
+    btnRGS.addEventListener('click', function() {
+      btnRGS.style.fontWeight='bold';
+      btnWP.style.fontWeight='normal';
       btnGen.style.fontWeight='normal';
 
-      dwp_shop.classList.remove('d-none');
-      dwp_shop.classList.add('d-block');
-      dwp_top_items.classList.remove('d-none');
-      dwp_top_items.classList.add('d-block');
+      rgs_shop.classList.remove('d-none');
+      rgs_shop.classList.add('d-block');
+      rgs_top_items.classList.remove('d-none');
+      rgs_top_items.classList.add('d-block');
 
-      gwp_shop.classList.remove('d-block');
-      gwp_shop.classList.add('d-none');
-      gwp_top_items.classList.remove('d-block');
-      gwp_top_items.classList.add('d-none');
+      wp_shop.classList.remove('d-block');
+      wp_shop.classList.add('d-none');
+      wp_top_items.classList.remove('d-block');
+      wp_top_items.classList.add('d-none');
 
       gen_shop.classList.remove('d-block');
       gen_shop.classList.add('d-none');
@@ -384,23 +384,23 @@
     // Attach a click event listener to the btnGen button
     btnGen.addEventListener('click', function() {
       btnGen.style.fontWeight='bold';
-      btnDWP.style.fontWeight='normal';
-      btnGWP.style.fontWeight='normal';
+      btnRGS.style.fontWeight='normal';
+      btnWP.style.fontWeight='normal';
 
       gen_shop.classList.remove('d-none');
       gen_shop.classList.add('d-block');
       gen_top_items.classList.remove('d-none');
       gen_top_items.classList.add('d-block');
 
-      dwp_shop.classList.remove('d-block');
-      dwp_shop.classList.add('d-none');
-      dwp_top_items.classList.remove('d-block');
-      dwp_top_items.classList.add('d-none');
+      rgs_shop.classList.remove('d-block');
+      rgs_shop.classList.add('d-none');
+      rgs_top_items.classList.remove('d-block');
+      rgs_top_items.classList.add('d-none');
 
-      gwp_shop.classList.remove('d-block');
-      gwp_shop.classList.add('d-none');
-      gwp_top_items.classList.remove('d-block');
-      gwp_top_items.classList.add('d-none');      
+      wp_shop.classList.remove('d-block');
+      wp_shop.classList.add('d-none');
+      wp_top_items.classList.remove('d-block');
+      wp_top_items.classList.add('d-none');      
     });
   });
 
