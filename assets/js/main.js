@@ -261,61 +261,61 @@
    */
   window.addEventListener('load', function() {
     // Get button elements by ID
-    var btnUsm = document.getElementById('btnUsm');
-    var btnTra = document.getElementById('btnTra');
-    var btnIns = document.getElementById('btnIns');
+    var btnAftsl = document.getElementById('btnAftsl');
+    var btnIrr = document.getElementById('btnIrr');
+    var btnIdm = document.getElementById('btnIdm');
 
     // Get sections by ID
-    var usm_serv = document.getElementById('usm_serv');
-    var tra_serv = document.getElementById('tra_serv');
+    var aftsl_serv = document.getElementById('aftsl_serv');
+    var irr_serv = document.getElementById('irr_serv');
     var ins_serv = document.getElementById('ins_serv');
 
-    // Attach a click event listener to the btnUsm button
-    btnUsm.addEventListener('click', function() {
-    btnUsm.style.fontWeight='bold';
-    btnTra.style.fontWeight='normal';
-    btnIns.style.fontWeight='normal';
+    // Attach a click event listener to the btnAftsl button
+    btnAftsl.addEventListener('click', function() {
+    btnAftsl.style.fontWeight='bold';
+    btnIrr.style.fontWeight='normal';
+    btnIdm.style.fontWeight='normal';
 
-    usm_serv.classList.remove('d-none');
-    usm_serv.classList.add('d-block');
+    aftsl_serv.classList.remove('d-none');
+    aftsl_serv.classList.add('d-block');
 
-    tra_serv.classList.remove('d-block');
-    tra_serv.classList.add('d-none');
+    irr_serv.classList.remove('d-block');
+    irr_serv.classList.add('d-none');
 
     ins_serv.classList.remove('d-block');
     ins_serv.classList.add('d-none');    
     });
 
-    // Attach a click event listener to the btnTra button
-    btnTra.addEventListener('click', function() {
-    btnTra.style.fontWeight='bold';
-    btnUsm.style.fontWeight='normal';
-    btnIns.style.fontWeight='normal';
+    // Attach a click event listener to the btnIrr button
+    btnIrr.addEventListener('click', function() {
+    btnIrr.style.fontWeight='bold';
+    btnAftsl.style.fontWeight='normal';
+    btnIdm.style.fontWeight='normal';
 
-    tra_serv.classList.remove('d-none');
-    tra_serv.classList.add('d-block');
+    irr_serv.classList.remove('d-none');
+    irr_serv.classList.add('d-block');
 
-    usm_serv.classList.remove('d-block');
-    usm_serv.classList.add('d-none');
+    aftsl_serv.classList.remove('d-block');
+    aftsl_serv.classList.add('d-none');
 
     ins_serv.classList.remove('d-block');
     ins_serv.classList.add('d-none');    
   });
 
-    // Attach a click event listener to the btnIns button
-    btnIns.addEventListener('click', function() {
-    btnIns.style.fontWeight='bold';
-    btnUsm.style.fontWeight='normal';
-    btnTra.style.fontWeight='normal';
+    // Attach a click event listener to the btnIdm button
+    btnIdm.addEventListener('click', function() {
+    btnIdm.style.fontWeight='bold';
+    btnAftsl.style.fontWeight='normal';
+    btnIrr.style.fontWeight='normal';
 
     ins_serv.classList.remove('d-none');
     ins_serv.classList.add('d-block');
 
-    usm_serv.classList.remove('d-block');
-    usm_serv.classList.add('d-none');
+    aftsl_serv.classList.remove('d-block');
+    aftsl_serv.classList.add('d-none');
 
-    tra_serv.classList.remove('d-block');
-    tra_serv.classList.add('d-none');    
+    irr_serv.classList.remove('d-block');
+    irr_serv.classList.add('d-none');    
     });
   });
 
