@@ -693,38 +693,44 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services {
-    background: #b5e0f4;
+    background: #1D1D35;
 }
 
 .services h1 {
   margin: 0 0 10px 0;
   line-height: 70px;
-  color: #1D1D35;
+  color: #3b8a69;
 }
 
 .services p {
-    color: #1D1D35;
+    color: #a9eaba;  
+}
+
+.services .shop-item-name {
+  color: #fff;
 }
 
 .services .btn-jabduu-primary {
-    background: none;
-    border-color: #1D1D35;
-    color: #1D1D35;
+  background: none;
+  border-color: #b5e0f4;
+  color: #a9eaba;
 }
 
 .services .btn-jabduu-primary:hover {
-    background: #1D1D35;
-    color: #ffffff;
+  background: #691212;
+  color: #a9eaba;
 }
 
 .service-item .btn-jabduu-secondary {
-    background: rgba(105, 18, 18, 1);
-    color: #ffffff;
+  background: none;
+  border-color: #691212;
+  color: #1D1D35;
 }
 
 .service-item .btn-jabduu-secondary:hover {
     background: #fff;
-    color: rgba(105, 18, 18, 1);
+    background: #1D1D35;
+    color: #a9eaba;
 }
 
 .services .btn-outline-primary {
@@ -732,7 +738,7 @@ section {
 }
 
 .services .service-features {
-    color: #1D1D35;
+    color: #A9EABA;
     font-weight: 500;
 }
 
@@ -769,7 +775,7 @@ section {
 }
 
 .service-item .card-body {
-    background: rgba(29, 29, 53, 1);
+    background: #a9eaba;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -836,17 +842,17 @@ section {
 # Product
 --------------------------------------------------------------*/
 .products {
-    background: rgba(29, 29, 53, 1);
+    background: #b5e0f4;
 }
 
 .products h1 {
-    margin: 0 0 10px 0;
-    line-height: 70px;
-    color: #3b8a69;
+  margin: 0 0 10px 0;
+  line-height: 70px;
+  color: #1D1D35;
 }
 
 .products p {
-    color: #a9eaba;
+    color: #1D1D35;
 }
 
 .products img {
@@ -855,14 +861,14 @@ section {
 }
 
 .products .btn-jabduu-primary {
-    background: none;
-    border-color: #b5e0f4;
-    color: #a9eaba;
+  background: none;
+  border-color: #1D1D35;
+  color: #1D1D35;
 }
 
 .products .btn-jabduu-primary:hover {
-    background: #691212;
-    color: #a9eaba;
+  background: #1D1D35;
+  color: #ffffff;
 }
 
 .products .btn-jabduu-secondary {
@@ -872,8 +878,8 @@ section {
 }
 
 .products .btn-jabduu-secondary:hover {
-    background: #1D1D35;
-    color: #a9eaba;
+  background: #fff;
+  color: rgba(105, 18, 18, 1);
 }
 
 .products .btn-outline-primary {
@@ -881,12 +887,12 @@ section {
 }
 
 .products .item-label-group span.irrigation-label {
-    background: #fff;
-    color: #1d1d35;
+    background: #1D1D35;
+    color: #fff;
 }
 
 .products .shop-item-name {
-    color: #fff;
+    color: #1D1D35;
 }
 
 .products .shop-item-price {
