@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-    font-family: "Montserrat", "Open Sans", sans-serif;
+    font-family: "Poppins", "Open Sans", sans-serif;
     color: #444444;
 }
 
@@ -30,11 +30,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Montserrat", "Poppins", "Open Sans", sans-serif;
+    font-family: "Poppins", "Open Sans", sans-serif;
 }
 
 .jabduu-heading {
-    font-family: "Montserrat", "Open Sans", sans-serif;
+    font-family: "Poppins", "Open Sans", sans-serif;
     font-size: 64px;
     font-weight: 800;
 }
@@ -46,25 +46,25 @@ h6 {
 }
 
 .jabduu-menu {
-    font-family: "Montserrat", "Open Sans", sans-serif;
+    font-family: "Poppins", "Open Sans", sans-serif;
     font-size: 15px;
     font-weight: 500;
 }
 
 .jabduu-link {
-    font-family: "Montserrat", "Open Sans", sans-serif;
+    font-family: "Poppins", "Open Sans", sans-serif;
     font-size: 15px;
     font-weight: 300;
 }
 
 .jabduu-paragraph {
-    font-family: "Montserrat", "Open Sans", sans-serif;
+    font-family: "Poppins", "Open Sans", sans-serif;
     font-size: 15px;
     font-weight: 400;
 }
 
 .btn-jabduu-primary {
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: "Poppins", "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -83,7 +83,7 @@ h6 {
 }
 
 .btn-jabduu-secondary {
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: "Poppins", "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -102,7 +102,7 @@ h6 {
 }
 
 .btn-get-quote {
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: "Poppins", "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -541,7 +541,7 @@ h6 {
 }
 
 #hero .btn-get-quote {
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: "Poppins", "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1404,7 +1404,7 @@ section {
 }
 
 .cta .cta-btn {
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: "Poppins", "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1719,7 +1719,7 @@ section {
   font-size: 48px;
   color: #1D1D35;
   font-weight: 400;
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: "Poppins", "Open Sans", sans-serif;
   margin-bottom: 25px;
 }
 
@@ -1774,7 +1774,7 @@ section {
   transition: none;
   font-size: 16px;
   font-weight: 500;
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: "Poppins", "Open Sans", sans-serif;
   transition: 0.3s;
   border: 1px solid #47b2e4;
 }
@@ -2221,7 +2221,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: "Poppins", "Open Sans", sans-serif;
   color: rgba(255, 255, 255, 0.7);
 }
 
