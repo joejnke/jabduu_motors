@@ -3,9 +3,9 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'php-email-form/PHPMailer/src/Exception.php';
-require 'php-email-form/PHPMailer/src/PHPMailer.php';
-require 'php-email-form/PHPMailer/src/SMTP.php';
+require '../assets/vendor/php-email-form/PHPMailer/src/Exception.php';
+require '../assets/vendor/php-email-form/PHPMailer/src/PHPMailer.php';
+require '../assets/vendor/php-email-form/PHPMailer/src/SMTP.php';
 
 // Replace these variables with your own values
 $to_email = 'joejnke@gmail.com';
