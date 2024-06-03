@@ -12,7 +12,7 @@ $to_email = 'joejnke@gmail.com';
 $from_email = $_POST['emailAddress'];
 $from_name = $_POST['name'];
 $subject = 'Email Order';
-$message = $_POST['message'];
+$message = 'Hi this is test';
 
 // Instantiate PHPMailer
 $mail = new PHPMailer();
