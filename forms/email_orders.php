@@ -21,7 +21,7 @@ $mail = new PHPMailer();
 $mail->isSMTP();
 
 // Specify SMTP settings
-$mail->Host = 'mail.jabduumotors.com';
+$mail->Host = 'smtp.jabduumotors.com';
 $mail->SMTPAuth = true;
 $mail->Username = 'sales@jabduumotors.com';
 $mail->Password = 'Longlive@Ethiopia';
