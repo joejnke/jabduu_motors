@@ -161,8 +161,8 @@
 }
 
 .item-label-group span.irrigation-label {
-    background: #fff;
-    color: #1d1d35;
+    background: #9e3030;
+    color: #fff;
 }
 
 .item-label-group span.gardening-label {
@@ -171,8 +171,8 @@
 }
 
 .item-label-group span.fuel-label {
-    background: #fff;
-    color: #1d1d35;
+    background: #057e78;
+    color: #fff;
 }
 
 .item-label-group span.rpm-label {
